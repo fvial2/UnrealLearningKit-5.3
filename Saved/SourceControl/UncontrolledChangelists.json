@@ -10,7 +10,11 @@
 				"C:/Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Content/LearningKit_Games/UI/WBP_HealthBar.uasset",
 				"C:/Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Content/LearningKit_Games/UI/WBP_GameOver.uasset",
 				"C:/Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Content/LearningKit_Games/Assets/Props/PuzzlePieces/PuzzleSphere_A/Material/MI_PuzzleSphere_A_5.uasset",
-				"C:/Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Content/LearningKit_Games/Blueprints/Pickups/Health_Pickup_BP.uasset"
+				"C:/Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Content/LearningKit_Games/Blueprints/Pickups/Health_Pickup_BP.uasset",
+				"C:/Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Content/LearningKit_Games/Blueprints/Pickups/Collectable_Pickup_BP.uasset",
+				"C:/Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Content/LearningKit_Games/Assets/Props/Collectibles/Common/Material/MI_Collictible_Custom.uasset",
+				"C:/Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Content/LearningKit_Games/UI/WBP_PlayerInfo.uasset",
+				"C:/Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Content/LearningKit_Games/UI/WBP_Score.uasset"
 			]
 		}
 	]
