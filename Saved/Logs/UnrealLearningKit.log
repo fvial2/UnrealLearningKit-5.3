@@ -1494,3 +1494,1085 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.02.20-21.50.27:595][ 39]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
 [2024.02.20-21.50.27:604][ 39]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
 [2024.02.20-21.50.27:643][ 40]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2024.02.20-21.52.08:074][185]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [ 5 Seconds] waiting for h/w. InstanceID=1
+[2024.02.20-21.52.08:187][185]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=20064
+[2024.02.20-21.52.08:523][186]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{17038452-2ef4-4086-92ae-61df38fedc4f}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=25.35
+[2024.02.20-21.52.08:523][186]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2024.02.20-21.52.08:525][186]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2024.02.21-00.05.13:424][733]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter
+[2024.02.21-00.05.13:424][733]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.21-00.05.13:424][733]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2024.02.21-00.05.13:719][734]LogShaderCompilers: Display: ================================================
+[2024.02.21-00.05.13:719][734]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.02.21-00.05.13:719][734]LogShaderCompilers: Display: Total job queries 211, among them cache hits 69 (32.70%)
+[2024.02.21-00.05.13:719][734]LogShaderCompilers: Display: Tracking 142 distinct input hashes that result in 103 distinct outputs (72.54%)
+[2024.02.21-00.05.13:719][734]LogShaderCompilers: Display: RAM used: 4.32 MiB of 1.60 GiB budget. Usage: 0.26%
+[2024.02.21-00.05.13:719][734]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.02.21-00.05.13:719][734]LogShaderCompilers: Display: Shaders Compiled: 82
+[2024.02.21-00.05.13:719][734]LogShaderCompilers: Display: Jobs assigned 82, completed 82 (100%)
+[2024.02.21-00.05.13:719][734]LogShaderCompilers: Display: Average time worker was idle: 12.24 s
+[2024.02.21-00.05.13:719][734]LogShaderCompilers: Display: Time job spent in pending queue: average 0.59 s, longest 1.97 s
+[2024.02.21-00.05.13:719][734]LogShaderCompilers: Display: Job execution time: average 0.53 s, max 1.28 s
+[2024.02.21-00.05.13:719][734]LogShaderCompilers: Display: Job life time (pending + execution): average 1.12 s, max 2.29
+[2024.02.21-00.05.13:719][734]LogShaderCompilers: Display: Shader code size: average 69.715 KiB, min 35.188 KiB, max 75.273 KiB
+[2024.02.21-00.05.13:719][734]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 6.82 s
+[2024.02.21-00.05.13:719][734]LogShaderCompilers: Display: Jobs were issued in 82 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.02.21-00.05.13:719][734]LogShaderCompilers: Display: Average processing rate: 12.02 jobs/sec
+[2024.02.21-00.05.13:719][734]LogShaderCompilers: Display: Total thread time: 29.067 s
+[2024.02.21-00.05.13:719][734]LogShaderCompilers: Display: Total thread preprocess time: 2.598 s
+[2024.02.21-00.05.13:719][734]LogShaderCompilers: Display: Percentage time preprocessing: 8.94%
+[2024.02.21-00.05.13:719][734]LogShaderCompilers: Display: Effective parallelization: 4.26 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.02.21-00.05.13:719][734]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.02.21-00.05.13:719][734]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   29 times, average 0.43 sec, max 0.53 sec, min 0.29 sec)
+[2024.02.21-00.05.13:719][734]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled   14 times, average 0.36 sec, max 0.40 sec, min 0.27 sec)
+[2024.02.21-00.05.13:719][734]LogShaderCompilers: Display:                   TBasePassVSFSelfShadowedTranslucencyPolicy (compiled   10 times, average 0.31 sec, max 0.33 sec, min 0.28 sec)
+[2024.02.21-00.05.13:719][734]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   15 times, average 0.31 sec, max 0.36 sec, min 0.25 sec)
+[2024.02.21-00.05.13:719][734]LogShaderCompilers: Display:                   TBasePassPSFSelfShadowedTranslucencyPolicy (compiled   10 times, average 0.29 sec, max 0.32 sec, min 0.26 sec)
+[2024.02.21-00.05.13:719][734]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.02.21-00.05.13:719][734]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 43.26% of total time (compiled   29 times, average 0.43 sec, max 0.53 sec, min 0.29 sec)
+[2024.02.21-00.05.13:719][734]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 17.30% of total time (compiled   14 times, average 0.36 sec, max 0.40 sec, min 0.27 sec)
+[2024.02.21-00.05.13:719][734]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 15.79% of total time (compiled   15 times, average 0.31 sec, max 0.36 sec, min 0.25 sec)
+[2024.02.21-00.05.13:719][734]LogShaderCompilers: Display:                   TBasePassVSFSelfShadowedTranslucencyPolicy - 10.64% of total time (compiled   10 times, average 0.31 sec, max 0.33 sec, min 0.28 sec)
+[2024.02.21-00.05.13:719][734]LogShaderCompilers: Display:                   TBasePassPSFSelfShadowedTranslucencyPolicy - 10.07% of total time (compiled   10 times, average 0.29 sec, max 0.32 sec, min 0.26 sec)
+[2024.02.21-00.05.13:719][734]LogShaderCompilers: Display: ================================================
+[2024.02.21-00.05.14:084][736]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.21-00.05.36:935][992]BlueprintLog: New page: Compile BP_LearningKit_PlayerCharacter
+[2024.02.21-00.05.37:015][992]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2024.02.21-00.05.38:134][ 54]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.21-00.05.38:249][ 54]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.21-00.05.38:326][ 54]LogSavePackage: Moving output files for package: /Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter
+[2024.02.21-00.05.38:327][ 54]LogSavePackage: Moving '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Saved/BP_LearningKit_PlayerCharacterF30FE965454225BA1A6B1BB57BD13FE6.tmp' to '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Content/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.uasset'
+[2024.02.21-00.05.38:338][ 54]LogFileHelpers: InternalPromptForCheckoutAndSave took 203 ms (total: 755 ms)
+[2024.02.21-00.05.38:340][ 54]AssetCheck: New page: Asset Save: BP_LearningKit_PlayerCharacter
+[2024.02.21-00.05.38:340][ 54]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter
+[2024.02.21-00.05.42:609][356]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.21-00.05.42:618][356]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.21-00.05.42:618][356]PIE: New page: PIE session: LearningKit_Games_Showcase (Feb 20, 2024, 12:05:42 PM)
+[2024.02.21-00.05.42:618][356]LogPlayLevel: Creating play world package: /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase
+[2024.02.21-00.05.42:649][356]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031538s)
+[2024.02.21-00.05.42:649][356]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase to /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase (0.031589s)
+[2024.02.21-00.05.42:666][356]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2024.02.21-00.05.42:670][356]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.21-00.05.42:670][356]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2024.02.21-00.05.42:671][356]LogAIModule: Creating AISystem for world LearningKit_Games_Showcase
+[2024.02.21-00.05.42:671][356]LogPlayLevel: PIE: World Init took: (0.001352s)
+[2024.02.21-00.05.42:671][356]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2024.02.21-00.05.42:671][356]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.21-00.05.42:671][356]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.21-00.05.42:671][356]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.21-00.05.42:671][356]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.21-00.05.42:671][356]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.21-00.05.42:671][356]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.21-00.05.42:671][356]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.21-00.05.42:671][356]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.21-00.05.42:672][356]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.21-00.05.42:672][356]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.21-00.05.42:672][356]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.21-00.05.42:674][356]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.21-00.05.42:709][356]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.02.21-00.05.42:709][356]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.21-00.05.42:709][356]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.21-00.05.42:709][356]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.21-00.05.42:710][356]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2024.02.21-00.05.42:710][356]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2024.02.21-00.05.42:711][356]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2024.02.21-00.05.42:711][356]LogInit: FAudioDevice initialized with ID 5.
+[2024.02.21-00.05.42:712][356]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2024.02.21-00.05.42:712][356]LogAudio: Display: Audio Device (ID: 5) registered with world 'LearningKit_Games_Showcase'.
+[2024.02.21-00.05.42:712][356]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2024.02.21-00.05.42:715][356]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2024.02.21-00.05.42:726][356]LogWorld: Bringing World /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase up for play (max tick rate 0) at 2024.02.20-18.05.42
+[2024.02.21-00.05.44:625][356]LogWorld: Bringing up level for play took: 1.909809
+[2024.02.21-00.05.44:628][356]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2024.02.21-00.05.44:632][356]PIE: Server logged in
+[2024.02.21-00.05.44:633][356]PIE: Play in editor total start time 2.016 seconds.
+[2024.02.21-00.06.04:543][ 72]LogBlueprintUserMessages: [Health_Pickup_BP_C_8] Collectable
+[2024.02.21-00.06.10:476][620]LogBlueprintUserMessages: [Collectable_Pickup_BP_C_10] Collectable
+[2024.02.21-00.06.18:614][336]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.21-00.06.18:615][336]LogWorld: BeginTearingDown for /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase
+[2024.02.21-00.06.18:615][336]LogWorld: UWorld::CleanupWorld for LearningKit_Games_Showcase, bSessionEnded=true, bCleanupResources=true
+[2024.02.21-00.06.18:618][336]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.21-00.06.18:623][336]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.21-00.06.18:634][336]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.21-00.06.18:652][336]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.21-00.06.18:653][336]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2024.02.21-00.06.18:653][336]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.02.21-00.06.18:656][336]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.02.21-00.06.18:672][336]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2024.02.21-00.06.18:732][337]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2024.02.21-00.07.40:901][564]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.21-00.07.41:019][564]LogSavePackage: Moving output files for package: /Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter
+[2024.02.21-00.07.41:020][564]LogSavePackage: Moving '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Saved/BP_LearningKit_PlayerCharacterB2AA12A0406EDAED78C8029EE24FF08F.tmp' to '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Content/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.uasset'
+[2024.02.21-00.07.41:028][564]LogFileHelpers: InternalPromptForCheckoutAndSave took 127 ms (total: 883 ms)
+[2024.02.21-00.07.41:030][564]AssetCheck: New page: Asset Save: BP_LearningKit_PlayerCharacter
+[2024.02.21-00.07.41:030][564]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter
+[2024.02.21-00.09.16:758][935]LogSlate: Took 0.000234 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2024.02.21-00.10.33:050][918]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.21-00.10.33:197][918]LogSavePackage: Moving output files for package: /Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter
+[2024.02.21-00.10.33:198][918]LogSavePackage: Moving '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Saved/BP_LearningKit_PlayerCharacterB74ABC084DC979CC453799B6E9EDCAEE.tmp' to '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Content/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.uasset'
+[2024.02.21-00.10.33:207][918]LogFileHelpers: InternalPromptForCheckoutAndSave took 157 ms (total: 1.04 sec)
+[2024.02.21-00.10.33:209][918]AssetCheck: New page: Asset Save: BP_LearningKit_PlayerCharacter
+[2024.02.21-00.10.33:209][918]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter
+[2024.02.21-00.10.33:973][969]BlueprintLog: New page: Compile BP_LearningKit_PlayerCharacter
+[2024.02.21-00.10.34:065][969]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2024.02.21-00.11.17:886][354]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2024.02.21-00.11.17:891][354]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/LearningKit_Games/Maps/LearningKit_Games_Showcase' took 0.025
+[2024.02.21-00.11.17:891][354]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/LearningKit_Games/Blueprints/StaticCharacter/BP_MortarProjectile] ([2] browsable assets)...
+[2024.02.21-00.11.18:048][354]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/LearningKit_Games/Blueprints/StaticCharacter/BP_MortarProjectile.BP_MortarProjectile]
+[2024.02.21-00.11.18:048][354]OBJ SavePackage: Finished generating thumbnails for package [/Game/LearningKit_Games/Blueprints/StaticCharacter/BP_MortarProjectile]
+[2024.02.21-00.11.18:058][354]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/LearningKit_Games/Blueprints/StaticCharacter/BP_MortarProjectile_Auto1
+[2024.02.21-00.11.18:059][354]LogSavePackage: Moving '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Saved/BP_MortarProjectile_Auto1D84A9D6344CE769C3DBBB7B268EF2623.tmp' to '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Saved/Autosaves/Game/LearningKit_Games/Blueprints/StaticCharacter/BP_MortarProjectile_Auto1.uasset'
+[2024.02.21-00.11.18:060][354]LogFileHelpers: Auto-saving content packages took 0.169
+[2024.02.21-00.11.32:764][812]BlueprintLog: New page: Compile BP_MortarProjectile
+[2024.02.21-00.11.32:803][812]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2024.02.21-00.11.33:886][878]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.21-00.11.34:012][878]LogSavePackage: Moving output files for package: /Game/LearningKit_Games/Blueprints/StaticCharacter/BP_MortarProjectile
+[2024.02.21-00.11.34:013][878]LogSavePackage: Moving '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Saved/BP_MortarProjectileDDA17F024CF80FAFBF98D4BBB85844EB.tmp' to '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Content/LearningKit_Games/Blueprints/StaticCharacter/BP_MortarProjectile.uasset'
+[2024.02.21-00.11.34:020][878]LogFileHelpers: InternalPromptForCheckoutAndSave took 134 ms (total: 1.17 sec)
+[2024.02.21-00.11.34:022][878]AssetCheck: New page: Asset Save: BP_MortarProjectile
+[2024.02.21-00.11.34:022][878]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/LearningKit_Games/Blueprints/StaticCharacter/BP_MortarProjectile.BP_MortarProjectile
+[2024.02.21-00.11.36:770][ 76]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.21-00.11.36:777][ 76]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.21-00.11.36:777][ 76]PIE: New page: PIE session: LearningKit_Games_Showcase (Feb 20, 2024, 12:11:36 PM)
+[2024.02.21-00.11.36:802][ 76]LogPlayLevel: Creating play world package: /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase
+[2024.02.21-00.11.36:827][ 76]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024843s)
+[2024.02.21-00.11.36:827][ 76]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase to /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase (0.024892s)
+[2024.02.21-00.11.36:842][ 76]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2024.02.21-00.11.36:846][ 76]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.21-00.11.36:846][ 76]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2024.02.21-00.11.36:847][ 76]LogAIModule: Creating AISystem for world LearningKit_Games_Showcase
+[2024.02.21-00.11.36:847][ 76]LogPlayLevel: PIE: World Init took: (0.001276s)
+[2024.02.21-00.11.36:847][ 76]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2024.02.21-00.11.36:847][ 76]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.21-00.11.36:847][ 76]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.21-00.11.36:847][ 76]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.21-00.11.36:847][ 76]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.21-00.11.36:847][ 76]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.21-00.11.36:847][ 76]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.21-00.11.36:847][ 76]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.21-00.11.36:847][ 76]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.21-00.11.36:848][ 76]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.21-00.11.36:848][ 76]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.21-00.11.36:848][ 76]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.21-00.11.36:850][ 76]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.21-00.11.36:879][ 76]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.02.21-00.11.36:880][ 76]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.21-00.11.36:880][ 76]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.21-00.11.36:880][ 76]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.21-00.11.36:880][ 76]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2024.02.21-00.11.36:881][ 76]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2024.02.21-00.11.36:883][ 76]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2024.02.21-00.11.36:883][ 76]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2024.02.21-00.11.36:883][ 76]LogInit: FAudioDevice initialized with ID 6.
+[2024.02.21-00.11.36:883][ 76]LogAudio: Display: Audio Device (ID: 6) registered with world 'LearningKit_Games_Showcase'.
+[2024.02.21-00.11.36:883][ 76]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2024.02.21-00.11.36:886][ 76]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2024.02.21-00.11.36:898][ 76]LogWorld: Bringing World /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase up for play (max tick rate 0) at 2024.02.20-18.11.36
+[2024.02.21-00.11.38:771][ 76]LogWorld: Bringing up level for play took: 1.884688
+[2024.02.21-00.11.38:774][ 76]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2024.02.21-00.11.38:777][ 76]PIE: Server logged in
+[2024.02.21-00.11.38:778][ 76]PIE: Play in editor total start time 2.001 seconds.
+[2024.02.21-00.12.11:422][917]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.21-00.12.11:422][917]LogWorld: BeginTearingDown for /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase
+[2024.02.21-00.12.11:422][917]LogWorld: UWorld::CleanupWorld for LearningKit_Games_Showcase, bSessionEnded=true, bCleanupResources=true
+[2024.02.21-00.12.11:424][917]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.21-00.12.11:428][917]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.21-00.12.11:436][917]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.21-00.12.11:451][917]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.21-00.12.11:452][917]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2024.02.21-00.12.11:452][917]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.02.21-00.12.11:454][917]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.02.21-00.12.11:462][917]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2024.02.21-00.12.11:501][918]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2024.02.21-00.13.03:473][461]BlueprintLog: New page: Compile BP_MortarProjectile
+[2024.02.21-00.13.03:509][461]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2024.02.21-00.13.04:493][523]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.21-00.13.04:619][523]LogSavePackage: Moving output files for package: /Game/LearningKit_Games/Blueprints/StaticCharacter/BP_MortarProjectile
+[2024.02.21-00.13.04:619][523]LogSavePackage: Moving '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Saved/BP_MortarProjectile9E1C55E548CD71C37965A790A0F7DA7E.tmp' to '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Content/LearningKit_Games/Blueprints/StaticCharacter/BP_MortarProjectile.uasset'
+[2024.02.21-00.13.04:628][523]LogFileHelpers: InternalPromptForCheckoutAndSave took 134 ms (total: 1.30 sec)
+[2024.02.21-00.13.04:630][523]AssetCheck: New page: Asset Save: BP_MortarProjectile
+[2024.02.21-00.13.04:630][523]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/LearningKit_Games/Blueprints/StaticCharacter/BP_MortarProjectile.BP_MortarProjectile
+[2024.02.21-00.13.08:081][773]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.21-00.13.08:089][773]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.21-00.13.08:089][773]PIE: New page: PIE session: LearningKit_Games_Showcase (Feb 20, 2024, 12:13:08 PM)
+[2024.02.21-00.13.08:089][773]LogPlayLevel: Creating play world package: /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase
+[2024.02.21-00.13.08:118][773]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029428s)
+[2024.02.21-00.13.08:118][773]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase to /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase (0.029475s)
+[2024.02.21-00.13.08:134][773]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2024.02.21-00.13.08:136][773]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.21-00.13.08:136][773]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2024.02.21-00.13.08:137][773]LogAIModule: Creating AISystem for world LearningKit_Games_Showcase
+[2024.02.21-00.13.08:137][773]LogPlayLevel: PIE: World Init took: (0.001067s)
+[2024.02.21-00.13.08:137][773]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2024.02.21-00.13.08:137][773]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.21-00.13.08:137][773]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.21-00.13.08:137][773]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.21-00.13.08:137][773]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.21-00.13.08:137][773]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.21-00.13.08:137][773]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.21-00.13.08:137][773]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.21-00.13.08:137][773]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.21-00.13.08:138][773]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.21-00.13.08:138][773]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.21-00.13.08:138][773]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.21-00.13.08:141][773]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.21-00.13.08:171][773]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.02.21-00.13.08:171][773]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.21-00.13.08:171][773]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.21-00.13.08:171][773]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.21-00.13.08:172][773]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2024.02.21-00.13.08:172][773]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2024.02.21-00.13.08:174][773]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2024.02.21-00.13.08:174][773]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2024.02.21-00.13.08:174][773]LogInit: FAudioDevice initialized with ID 7.
+[2024.02.21-00.13.08:174][773]LogAudio: Display: Audio Device (ID: 7) registered with world 'LearningKit_Games_Showcase'.
+[2024.02.21-00.13.08:174][773]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2024.02.21-00.13.08:177][773]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2024.02.21-00.13.08:189][773]LogWorld: Bringing World /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase up for play (max tick rate 0) at 2024.02.20-18.13.08
+[2024.02.21-00.13.10:022][773]LogWorld: Bringing up level for play took: 1.844644
+[2024.02.21-00.13.10:024][773]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2024.02.21-00.13.10:029][773]PIE: Server logged in
+[2024.02.21-00.13.10:030][773]PIE: Play in editor total start time 1.942 seconds.
+[2024.02.21-00.14.32:912][813]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.21-00.14.32:912][813]LogWorld: BeginTearingDown for /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase
+[2024.02.21-00.14.32:912][813]LogWorld: UWorld::CleanupWorld for LearningKit_Games_Showcase, bSessionEnded=true, bCleanupResources=true
+[2024.02.21-00.14.32:914][813]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.21-00.14.32:918][813]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.21-00.14.32:925][813]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.21-00.14.32:941][813]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.21-00.14.32:941][813]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2024.02.21-00.14.32:941][813]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.02.21-00.14.32:943][813]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.02.21-00.14.32:947][813]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.21-00.14.32:953][813]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2024.02.21-00.14.32:990][814]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2024.02.21-00.18.15:123][989]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.21-00.18.15:249][989]LogSavePackage: Moving output files for package: /Game/LearningKit_Games/Blueprints/StaticCharacter/BP_MortarProjectile
+[2024.02.21-00.18.15:250][989]LogSavePackage: Moving '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Saved/BP_MortarProjectile7B13087F49C1967E90D27E87F052391B.tmp' to '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Content/LearningKit_Games/Blueprints/StaticCharacter/BP_MortarProjectile.uasset'
+[2024.02.21-00.18.15:258][989]LogFileHelpers: InternalPromptForCheckoutAndSave took 135 ms (total: 1.44 sec)
+[2024.02.21-00.18.15:260][989]AssetCheck: New page: Asset Save: BP_MortarProjectile
+[2024.02.21-00.18.15:260][989]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/LearningKit_Games/Blueprints/StaticCharacter/BP_MortarProjectile.BP_MortarProjectile
+[2024.02.21-00.18.28:935][872]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.21-00.18.29:035][872]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2024.02.21-00.18.29:127][872]LogSavePackage: Moving output files for package: /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase
+[2024.02.21-00.18.29:128][872]LogSavePackage: Moving '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Saved/LearningKit_Games_ShowcaseE78758AA4ABC5CCA9CD36E98F1CBE45B.tmp' to '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Content/LearningKit_Games/Maps/LearningKit_Games_Showcase.umap'
+[2024.02.21-00.18.29:135][872]LogFileHelpers: Saving map 'LearningKit_Games_Showcase' took 0.140
+[2024.02.21-00.18.29:144][872]LogFileHelpers: InternalPromptForCheckoutAndSave took 208 ms (total: 1.65 sec)
+[2024.02.21-00.18.29:145][872]AssetCheck: New page: Asset Save: LearningKit_Games_Showcase
+[2024.02.21-00.18.29:145][872]LogContentValidation: Display: Validating /Script/Engine.World /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase
+[2024.02.21-00.18.31:515][ 22]BlueprintLog: New page: Compile BP_MortarProjectile
+[2024.02.21-00.18.31:549][ 22]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2024.02.21-00.18.44:065][824]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.21-00.18.44:073][824]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.21-00.18.44:073][824]PIE: New page: PIE session: LearningKit_Games_Showcase (Feb 20, 2024, 12:18:44 PM)
+[2024.02.21-00.18.44:073][824]LogPlayLevel: Creating play world package: /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase
+[2024.02.21-00.18.44:099][824]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026168s)
+[2024.02.21-00.18.44:099][824]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase to /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase (0.026228s)
+[2024.02.21-00.18.44:113][824]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2024.02.21-00.18.44:115][824]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.21-00.18.44:116][824]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2024.02.21-00.18.44:116][824]LogAIModule: Creating AISystem for world LearningKit_Games_Showcase
+[2024.02.21-00.18.44:117][824]LogPlayLevel: PIE: World Init took: (0.001192s)
+[2024.02.21-00.18.44:117][824]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2024.02.21-00.18.44:117][824]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.21-00.18.44:117][824]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.21-00.18.44:117][824]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.21-00.18.44:117][824]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.21-00.18.44:117][824]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.21-00.18.44:117][824]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.21-00.18.44:117][824]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.21-00.18.44:117][824]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.21-00.18.44:117][824]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.21-00.18.44:117][824]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.21-00.18.44:117][824]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.21-00.18.44:119][824]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.21-00.18.44:149][824]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.02.21-00.18.44:149][824]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.21-00.18.44:149][824]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.21-00.18.44:149][824]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.21-00.18.44:150][824]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2024.02.21-00.18.44:150][824]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2024.02.21-00.18.44:152][824]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2024.02.21-00.18.44:152][824]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2024.02.21-00.18.44:152][824]LogInit: FAudioDevice initialized with ID 8.
+[2024.02.21-00.18.44:152][824]LogAudio: Display: Audio Device (ID: 8) registered with world 'LearningKit_Games_Showcase'.
+[2024.02.21-00.18.44:152][824]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2024.02.21-00.18.44:155][824]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2024.02.21-00.18.44:167][824]LogWorld: Bringing World /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase up for play (max tick rate 0) at 2024.02.20-18.18.44
+[2024.02.21-00.18.46:015][824]LogWorld: Bringing up level for play took: 1.859759
+[2024.02.21-00.18.46:017][824]LogOnline: OSS: Created online subsystem instance for: :Context_24
+[2024.02.21-00.18.46:021][824]PIE: Server logged in
+[2024.02.21-00.18.46:022][824]PIE: Play in editor total start time 1.95 seconds.
+[2024.02.21-00.18.58:811][904]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.21-00.18.58:811][904]LogWorld: BeginTearingDown for /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase
+[2024.02.21-00.18.58:811][904]LogWorld: UWorld::CleanupWorld for LearningKit_Games_Showcase, bSessionEnded=true, bCleanupResources=true
+[2024.02.21-00.18.58:813][904]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.21-00.18.58:817][904]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.21-00.18.58:825][904]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.21-00.18.58:841][904]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.21-00.18.58:841][904]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2024.02.21-00.18.58:842][904]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.02.21-00.18.58:843][904]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.02.21-00.18.58:847][904]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.21-00.18.58:852][904]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2024.02.21-00.18.58:891][905]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2024.02.21-00.19.37:039][238]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.21-00.19.37:161][238]LogSavePackage: Moving output files for package: /Game/LearningKit_Games/Blueprints/StaticCharacter/BP_MortarProjectile
+[2024.02.21-00.19.37:162][238]LogSavePackage: Moving '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Saved/BP_MortarProjectileB9032721437D6F124948298419E7FBEF.tmp' to '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Content/LearningKit_Games/Blueprints/StaticCharacter/BP_MortarProjectile.uasset'
+[2024.02.21-00.19.37:170][238]LogFileHelpers: InternalPromptForCheckoutAndSave took 130 ms (total: 1.78 sec)
+[2024.02.21-00.19.37:171][238]AssetCheck: New page: Asset Save: BP_MortarProjectile
+[2024.02.21-00.19.37:171][238]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/LearningKit_Games/Blueprints/StaticCharacter/BP_MortarProjectile.BP_MortarProjectile
+[2024.02.21-00.19.39:878][408]BlueprintLog: New page: Compile BP_MortarProjectile
+[2024.02.21-00.19.39:911][408]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2024.02.21-00.19.42:576][592]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.21-00.19.42:586][592]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.21-00.19.42:586][592]PIE: New page: PIE session: LearningKit_Games_Showcase (Feb 20, 2024, 12:19:42 PM)
+[2024.02.21-00.19.42:586][592]LogPlayLevel: Creating play world package: /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase
+[2024.02.21-00.19.42:618][592]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032185s)
+[2024.02.21-00.19.42:618][592]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase to /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase (0.032236s)
+[2024.02.21-00.19.42:634][592]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2024.02.21-00.19.42:636][592]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.21-00.19.42:636][592]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2024.02.21-00.19.42:637][592]LogAIModule: Creating AISystem for world LearningKit_Games_Showcase
+[2024.02.21-00.19.42:637][592]LogPlayLevel: PIE: World Init took: (0.001095s)
+[2024.02.21-00.19.42:637][592]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2024.02.21-00.19.42:637][592]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.21-00.19.42:637][592]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.21-00.19.42:637][592]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.21-00.19.42:637][592]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.21-00.19.42:637][592]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.21-00.19.42:637][592]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.21-00.19.42:637][592]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.21-00.19.42:637][592]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.21-00.19.42:638][592]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.21-00.19.42:638][592]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.21-00.19.42:638][592]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.21-00.19.42:640][592]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.21-00.19.42:670][592]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.02.21-00.19.42:670][592]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.21-00.19.42:671][592]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.21-00.19.42:671][592]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.21-00.19.42:671][592]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2024.02.21-00.19.42:671][592]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2024.02.21-00.19.42:673][592]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2024.02.21-00.19.42:673][592]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2024.02.21-00.19.42:673][592]LogInit: FAudioDevice initialized with ID 9.
+[2024.02.21-00.19.42:673][592]LogAudio: Display: Audio Device (ID: 9) registered with world 'LearningKit_Games_Showcase'.
+[2024.02.21-00.19.42:673][592]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2024.02.21-00.19.42:676][592]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2024.02.21-00.19.42:689][592]LogWorld: Bringing World /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase up for play (max tick rate 0) at 2024.02.20-18.19.42
+[2024.02.21-00.19.44:541][592]LogWorld: Bringing up level for play took: 1.864799
+[2024.02.21-00.19.44:544][592]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2024.02.21-00.19.44:548][592]PIE: Server logged in
+[2024.02.21-00.19.44:549][592]PIE: Play in editor total start time 1.963 seconds.
+[2024.02.21-00.20.40:530][386]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.21-00.20.40:531][386]LogWorld: BeginTearingDown for /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase
+[2024.02.21-00.20.40:531][386]LogWorld: UWorld::CleanupWorld for LearningKit_Games_Showcase, bSessionEnded=true, bCleanupResources=true
+[2024.02.21-00.20.40:533][386]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.21-00.20.40:536][386]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.21-00.20.40:543][386]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.21-00.20.40:558][386]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.21-00.20.40:558][386]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2024.02.21-00.20.40:558][386]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.02.21-00.20.40:560][386]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.02.21-00.20.40:564][386]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.21-00.20.40:569][386]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2024.02.21-00.20.40:607][387]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2024.02.21-00.20.53:283][172]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.21-00.20.53:398][172]LogSavePackage: Moving output files for package: /Game/LearningKit_Games/Blueprints/StaticCharacter/BP_MortarProjectile
+[2024.02.21-00.20.53:399][172]LogSavePackage: Moving '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Saved/BP_MortarProjectileE43F1B8E473BEF8BDCFA06B510827AD8.tmp' to '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Content/LearningKit_Games/Blueprints/StaticCharacter/BP_MortarProjectile.uasset'
+[2024.02.21-00.20.53:407][172]LogFileHelpers: InternalPromptForCheckoutAndSave took 123 ms (total: 1.90 sec)
+[2024.02.21-00.20.53:408][172]AssetCheck: New page: Asset Save: BP_MortarProjectile
+[2024.02.21-00.20.53:408][172]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/LearningKit_Games/Blueprints/StaticCharacter/BP_MortarProjectile.BP_MortarProjectile
+[2024.02.21-00.20.55:223][293]BlueprintLog: New page: Compile BP_MortarProjectile
+[2024.02.21-00.20.55:259][293]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2024.02.21-00.20.57:553][449]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.21-00.20.57:560][449]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.21-00.20.57:560][449]PIE: New page: PIE session: LearningKit_Games_Showcase (Feb 20, 2024, 12:20:57 PM)
+[2024.02.21-00.20.57:561][449]LogPlayLevel: Creating play world package: /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase
+[2024.02.21-00.20.57:589][449]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027910s)
+[2024.02.21-00.20.57:589][449]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase to /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase (0.027955s)
+[2024.02.21-00.20.57:604][449]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2024.02.21-00.20.57:606][449]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.21-00.20.57:607][449]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2024.02.21-00.20.57:607][449]LogAIModule: Creating AISystem for world LearningKit_Games_Showcase
+[2024.02.21-00.20.57:607][449]LogPlayLevel: PIE: World Init took: (0.001065s)
+[2024.02.21-00.20.57:607][449]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2024.02.21-00.20.57:607][449]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.21-00.20.57:608][449]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.21-00.20.57:608][449]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.21-00.20.57:608][449]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.21-00.20.57:608][449]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.21-00.20.57:608][449]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.21-00.20.57:608][449]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.21-00.20.57:608][449]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.21-00.20.57:608][449]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.21-00.20.57:608][449]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.21-00.20.57:608][449]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.21-00.20.57:610][449]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.21-00.20.57:640][449]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.02.21-00.20.57:640][449]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.21-00.20.57:640][449]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.21-00.20.57:640][449]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.21-00.20.57:641][449]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2024.02.21-00.20.57:641][449]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2024.02.21-00.20.57:643][449]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2024.02.21-00.20.57:643][449]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2024.02.21-00.20.57:643][449]LogInit: FAudioDevice initialized with ID 10.
+[2024.02.21-00.20.57:643][449]LogAudio: Display: Audio Device (ID: 10) registered with world 'LearningKit_Games_Showcase'.
+[2024.02.21-00.20.57:643][449]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2024.02.21-00.20.57:646][449]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2024.02.21-00.20.57:658][449]LogWorld: Bringing World /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase up for play (max tick rate 0) at 2024.02.20-18.20.57
+[2024.02.21-00.20.59:496][449]LogWorld: Bringing up level for play took: 1.849756
+[2024.02.21-00.20.59:499][449]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2024.02.21-00.20.59:503][449]PIE: Server logged in
+[2024.02.21-00.20.59:504][449]PIE: Play in editor total start time 1.943 seconds.
+[2024.02.21-00.21.08:626][199]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.02.21-00.21.08:626][199]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.02.21-00.21.09:680][285]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.21-00.21.09:680][285]LogWorld: BeginTearingDown for /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase
+[2024.02.21-00.21.09:680][285]LogWorld: UWorld::CleanupWorld for LearningKit_Games_Showcase, bSessionEnded=true, bCleanupResources=true
+[2024.02.21-00.21.09:682][285]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.21-00.21.09:685][285]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.21-00.21.09:692][285]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.21-00.21.09:708][285]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.21-00.21.09:708][285]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2024.02.21-00.21.09:708][285]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.02.21-00.21.09:710][285]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.02.21-00.21.09:714][285]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.21-00.21.09:720][285]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2024.02.21-00.21.09:746][286]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2024.02.21-00.21.10:651][361]Cmd: SELECT NONE
+[2024.02.21-00.21.26:056][319]BlueprintLog: New page: Compile BP_MortarProjectile
+[2024.02.21-00.21.26:091][319]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2024.02.21-00.21.26:438][338]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.21-00.21.26:549][338]LogSavePackage: Moving output files for package: /Game/LearningKit_Games/Blueprints/StaticCharacter/BP_MortarProjectile
+[2024.02.21-00.21.26:550][338]LogSavePackage: Moving '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Saved/BP_MortarProjectile01FF42C641AB819DFDC287A4A1909925.tmp' to '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Content/LearningKit_Games/Blueprints/StaticCharacter/BP_MortarProjectile.uasset'
+[2024.02.21-00.21.26:558][338]LogFileHelpers: InternalPromptForCheckoutAndSave took 120 ms (total: 2.02 sec)
+[2024.02.21-00.21.26:560][338]AssetCheck: New page: Asset Save: BP_MortarProjectile
+[2024.02.21-00.21.26:560][338]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/LearningKit_Games/Blueprints/StaticCharacter/BP_MortarProjectile.BP_MortarProjectile
+[2024.02.21-00.21.28:769][497]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.21-00.21.28:776][497]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.21-00.21.28:776][497]PIE: New page: PIE session: LearningKit_Games_Showcase (Feb 20, 2024, 12:21:28 PM)
+[2024.02.21-00.21.28:799][497]LogPlayLevel: Creating play world package: /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase
+[2024.02.21-00.21.28:824][497]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024785s)
+[2024.02.21-00.21.28:824][497]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase to /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase (0.024837s)
+[2024.02.21-00.21.28:839][497]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2024.02.21-00.21.28:842][497]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.21-00.21.28:842][497]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2024.02.21-00.21.28:842][497]LogAIModule: Creating AISystem for world LearningKit_Games_Showcase
+[2024.02.21-00.21.28:843][497]LogPlayLevel: PIE: World Init took: (0.001105s)
+[2024.02.21-00.21.28:843][497]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2024.02.21-00.21.28:843][497]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.21-00.21.28:843][497]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.21-00.21.28:843][497]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.21-00.21.28:843][497]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.21-00.21.28:843][497]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.21-00.21.28:843][497]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.21-00.21.28:843][497]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.21-00.21.28:843][497]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.21-00.21.28:843][497]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.21-00.21.28:843][497]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.21-00.21.28:843][497]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.21-00.21.28:845][497]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.21-00.21.28:881][497]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.02.21-00.21.28:881][497]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.21-00.21.28:881][497]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.21-00.21.28:881][497]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.21-00.21.28:882][497]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2024.02.21-00.21.28:882][497]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2024.02.21-00.21.28:884][497]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2024.02.21-00.21.28:884][497]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2024.02.21-00.21.28:884][497]LogInit: FAudioDevice initialized with ID 11.
+[2024.02.21-00.21.28:884][497]LogAudio: Display: Audio Device (ID: 11) registered with world 'LearningKit_Games_Showcase'.
+[2024.02.21-00.21.28:884][497]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2024.02.21-00.21.28:887][497]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2024.02.21-00.21.28:899][497]LogWorld: Bringing World /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase up for play (max tick rate 0) at 2024.02.20-18.21.28
+[2024.02.21-00.21.30:756][497]LogWorld: Bringing up level for play took: 1.868332
+[2024.02.21-00.21.30:758][497]LogOnline: OSS: Created online subsystem instance for: :Context_27
+[2024.02.21-00.21.30:762][497]PIE: Server logged in
+[2024.02.21-00.21.30:763][497]PIE: Play in editor total start time 1.987 seconds.
+[2024.02.21-00.21.40:422][300]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.02.21-00.21.40:422][300]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.02.21-00.21.41:710][405]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.21-00.21.41:710][405]LogWorld: BeginTearingDown for /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase
+[2024.02.21-00.21.41:710][405]LogWorld: UWorld::CleanupWorld for LearningKit_Games_Showcase, bSessionEnded=true, bCleanupResources=true
+[2024.02.21-00.21.41:712][405]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.21-00.21.41:715][405]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.21-00.21.41:723][405]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.21-00.21.41:739][405]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.21-00.21.41:739][405]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2024.02.21-00.21.41:739][405]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.02.21-00.21.41:740][405]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.02.21-00.21.41:744][405]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.21-00.21.41:749][405]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2024.02.21-00.21.41:776][406]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2024.02.21-00.22.01:467][715]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.21-00.22.01:580][715]LogSavePackage: Moving output files for package: /Game/LearningKit_Games/Blueprints/StaticCharacter/BP_MortarProjectile
+[2024.02.21-00.22.01:581][715]LogSavePackage: Moving '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Saved/BP_MortarProjectile6D40DABC4C328A7C7EB6F6959BCD8FA8.tmp' to '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Content/LearningKit_Games/Blueprints/StaticCharacter/BP_MortarProjectile.uasset'
+[2024.02.21-00.22.01:589][715]LogFileHelpers: InternalPromptForCheckoutAndSave took 122 ms (total: 2.15 sec)
+[2024.02.21-00.22.01:591][715]AssetCheck: New page: Asset Save: BP_MortarProjectile
+[2024.02.21-00.22.01:591][715]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/LearningKit_Games/Blueprints/StaticCharacter/BP_MortarProjectile.BP_MortarProjectile
+[2024.02.21-00.22.02:569][780]BlueprintLog: New page: Compile BP_MortarProjectile
+[2024.02.21-00.22.02:604][780]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2024.02.21-00.28.26:551][304]BlueprintLog: New page: Compile BP_LearningKit_PlayerCharacter
+[2024.02.21-00.28.26:637][304]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2024.02.21-00.30.01:597][856]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.21-00.30.01:761][856]LogSavePackage: Moving output files for package: /Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter
+[2024.02.21-00.30.01:762][856]LogSavePackage: Moving '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Saved/BP_LearningKit_PlayerCharacterD0AD3B2F4C9367EA2C8E78A2F9F9C955.tmp' to '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Content/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.uasset'
+[2024.02.21-00.30.01:771][856]LogFileHelpers: InternalPromptForCheckoutAndSave took 173 ms (total: 2.32 sec)
+[2024.02.21-00.30.01:774][856]AssetCheck: New page: Asset Save: BP_LearningKit_PlayerCharacter
+[2024.02.21-00.30.01:774][856]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter
+[2024.02.21-00.30.32:789][427]LogSlate: Window 'Delete Function' being destroyed
+[2024.02.21-00.30.34:523][501]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.21-00.30.34:681][501]LogSavePackage: Moving output files for package: /Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter
+[2024.02.21-00.30.34:682][501]LogSavePackage: Moving '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Saved/BP_LearningKit_PlayerCharacterCDCBA7AD47355FB9EFE846A997F040A9.tmp' to '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Content/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.uasset'
+[2024.02.21-00.30.34:690][501]LogFileHelpers: InternalPromptForCheckoutAndSave took 166 ms (total: 2.49 sec)
+[2024.02.21-00.30.34:692][501]AssetCheck: New page: Asset Save: BP_LearningKit_PlayerCharacter
+[2024.02.21-00.30.34:692][501]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter
+[2024.02.21-00.30.35:212][532]BlueprintLog: New page: Compile BP_LearningKit_PlayerCharacter
+[2024.02.21-00.30.35:231][532]LogBlueprint: Error: [AssetLog] C:\Users\cesco\OneDrive\Documents\Unreal Projects\UnrealLearningKit 5.3\Content\LearningKit_Games\Blueprints\StaticCharacter\BP_MortarProjectile.uasset: [Compiler] In use pin  <Unnamed>  no longer exists on node  Process Hit Received . Please refresh node or break links to remove pin.
+[2024.02.21-00.30.35:231][532]LogBlueprint: Error: [AssetLog] C:\Users\cesco\OneDrive\Documents\Unreal Projects\UnrealLearningKit 5.3\Content\LearningKit_Games\Blueprints\StaticCharacter\BP_MortarProjectile.uasset: [Compiler] In use pin  Target  no longer exists on node  Process Hit Received . Please refresh node or break links to remove pin.
+[2024.02.21-00.30.35:231][532]LogBlueprint: Error: [AssetLog] C:\Users\cesco\OneDrive\Documents\Unreal Projects\UnrealLearningKit 5.3\Content\LearningKit_Games\Blueprints\StaticCharacter\BP_MortarProjectile.uasset: [Compiler] Could not find a function named "ProcessHitReceived" in 'BP_LearningKit_PlayerCharacter_C'.
+Make sure 'BP_LearningKit_PlayerCharacter_C' has been compiled for  Process Hit Received
+[2024.02.21-00.30.35:315][532]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2024.02.21-00.31.12:354][779]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.21-00.31.12:465][779]LogSavePackage: Moving output files for package: /Game/LearningKit_Games/Blueprints/StaticCharacter/BP_MortarProjectile
+[2024.02.21-00.31.12:466][779]LogSavePackage: Moving '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Saved/BP_MortarProjectile349B24324AE44730F103FDBC92ED8D97.tmp' to '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Content/LearningKit_Games/Blueprints/StaticCharacter/BP_MortarProjectile.uasset'
+[2024.02.21-00.31.12:475][779]LogFileHelpers: InternalPromptForCheckoutAndSave took 121 ms (total: 2.61 sec)
+[2024.02.21-00.31.12:477][779]AssetCheck: New page: Asset Save: BP_MortarProjectile
+[2024.02.21-00.31.12:477][779]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/LearningKit_Games/Blueprints/StaticCharacter/BP_MortarProjectile.BP_MortarProjectile
+[2024.02.21-00.31.13:027][814]BlueprintLog: New page: Compile BP_MortarProjectile
+[2024.02.21-00.31.13:070][814]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2024.02.21-00.33.19:707][435]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.21-00.33.19:874][435]LogSavePackage: Moving output files for package: /Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter
+[2024.02.21-00.33.19:875][435]LogSavePackage: Moving '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Saved/BP_LearningKit_PlayerCharacter1545C204422ECC44A85C89A8FD3F85B1.tmp' to '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Content/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.uasset'
+[2024.02.21-00.33.19:884][435]LogFileHelpers: InternalPromptForCheckoutAndSave took 176 ms (total: 2.78 sec)
+[2024.02.21-00.33.19:887][435]AssetCheck: New page: Asset Save: BP_LearningKit_PlayerCharacter
+[2024.02.21-00.33.19:887][435]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter
+[2024.02.21-00.33.20:421][455]BlueprintLog: New page: Compile BP_LearningKit_PlayerCharacter
+[2024.02.21-00.33.20:502][455]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2024.02.21-00.33.24:560][699]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.21-00.33.24:569][699]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.21-00.33.24:569][699]PIE: New page: PIE session: LearningKit_Games_Showcase (Feb 20, 2024, 12:33:24 PM)
+[2024.02.21-00.33.24:569][699]LogPlayLevel: Creating play world package: /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase
+[2024.02.21-00.33.24:598][699]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028166s)
+[2024.02.21-00.33.24:598][699]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase to /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase (0.028212s)
+[2024.02.21-00.33.24:616][699]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2024.02.21-00.33.24:626][699]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.21-00.33.24:626][699]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2024.02.21-00.33.24:626][699]LogAIModule: Creating AISystem for world LearningKit_Games_Showcase
+[2024.02.21-00.33.24:627][699]LogPlayLevel: PIE: World Init took: (0.001139s)
+[2024.02.21-00.33.24:627][699]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2024.02.21-00.33.24:627][699]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.21-00.33.24:627][699]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.21-00.33.24:627][699]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.21-00.33.24:627][699]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.21-00.33.24:627][699]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.21-00.33.24:627][699]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.21-00.33.24:627][699]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.21-00.33.24:627][699]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.21-00.33.24:627][699]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.21-00.33.24:627][699]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.21-00.33.24:627][699]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.21-00.33.24:629][699]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.21-00.33.24:660][699]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.02.21-00.33.24:660][699]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.21-00.33.24:660][699]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.21-00.33.24:660][699]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.21-00.33.24:661][699]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2024.02.21-00.33.24:661][699]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2024.02.21-00.33.24:662][699]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2024.02.21-00.33.24:662][699]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2024.02.21-00.33.24:662][699]LogInit: FAudioDevice initialized with ID 12.
+[2024.02.21-00.33.24:662][699]LogAudio: Display: Audio Device (ID: 12) registered with world 'LearningKit_Games_Showcase'.
+[2024.02.21-00.33.24:662][699]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2024.02.21-00.33.24:665][699]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2024.02.21-00.33.24:678][699]LogWorld: Bringing World /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase up for play (max tick rate 0) at 2024.02.20-18.33.24
+[2024.02.21-00.33.26:527][699]LogWorld: Bringing up level for play took: 1.860924
+[2024.02.21-00.33.26:529][699]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2024.02.21-00.33.26:533][699]PIE: Server logged in
+[2024.02.21-00.33.26:534][699]PIE: Play in editor total start time 1.965 seconds.
+[2024.02.21-00.33.43:086][ 96]LogBlueprintUserMessages: [Health_Pickup_BP_C_8] Collectable
+[2024.02.21-00.33.55:337][161]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.21-00.33.55:337][161]LogWorld: BeginTearingDown for /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase
+[2024.02.21-00.33.55:337][161]LogWorld: UWorld::CleanupWorld for LearningKit_Games_Showcase, bSessionEnded=true, bCleanupResources=true
+[2024.02.21-00.33.55:339][161]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.21-00.33.55:343][161]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.21-00.33.55:352][161]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.21-00.33.55:370][161]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.21-00.33.55:370][161]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2024.02.21-00.33.55:370][161]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.02.21-00.33.55:372][161]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.02.21-00.33.55:376][161]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.21-00.33.55:381][161]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2024.02.21-00.33.55:419][162]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2024.02.21-00.34.39:268][742]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.21-00.34.39:382][742]LogSavePackage: Moving output files for package: /Game/LearningKit_Games/Blueprints/StaticCharacter/BP_MortarProjectile
+[2024.02.21-00.34.39:383][742]LogSavePackage: Moving '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Saved/BP_MortarProjectile79F26C064999993BE24A3AB74C430CD4.tmp' to '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Content/LearningKit_Games/Blueprints/StaticCharacter/BP_MortarProjectile.uasset'
+[2024.02.21-00.34.39:392][742]LogFileHelpers: InternalPromptForCheckoutAndSave took 123 ms (total: 2.91 sec)
+[2024.02.21-00.34.39:394][742]AssetCheck: New page: Asset Save: BP_MortarProjectile
+[2024.02.21-00.34.39:394][742]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/LearningKit_Games/Blueprints/StaticCharacter/BP_MortarProjectile.BP_MortarProjectile
+[2024.02.21-00.34.40:155][787]BlueprintLog: New page: Compile BP_MortarProjectile
+[2024.02.21-00.34.40:197][787]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2024.02.21-00.34.47:451][234]BlueprintLog: New page: Compile BP_MortarProjectile
+[2024.02.21-00.34.47:492][234]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2024.02.21-00.34.48:628][297]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.21-00.34.48:728][297]LogSavePackage: Moving output files for package: /Game/LearningKit_Games/Blueprints/StaticCharacter/BP_MortarProjectile
+[2024.02.21-00.34.48:729][297]LogSavePackage: Moving '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Saved/BP_MortarProjectile5AF0C6124E8D888BFAC09E88B828FDF2.tmp' to '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Content/LearningKit_Games/Blueprints/StaticCharacter/BP_MortarProjectile.uasset'
+[2024.02.21-00.34.48:738][297]LogFileHelpers: InternalPromptForCheckoutAndSave took 110 ms (total: 3.02 sec)
+[2024.02.21-00.34.48:740][297]AssetCheck: New page: Asset Save: BP_MortarProjectile
+[2024.02.21-00.34.48:740][297]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/LearningKit_Games/Blueprints/StaticCharacter/BP_MortarProjectile.BP_MortarProjectile
+[2024.02.21-00.34.50:894][447]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.21-00.34.50:902][447]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.21-00.34.50:902][447]PIE: New page: PIE session: LearningKit_Games_Showcase (Feb 20, 2024, 12:34:50 PM)
+[2024.02.21-00.34.50:903][447]LogPlayLevel: Creating play world package: /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase
+[2024.02.21-00.34.50:934][447]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031610s)
+[2024.02.21-00.34.50:934][447]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase to /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase (0.031665s)
+[2024.02.21-00.34.50:952][447]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2024.02.21-00.34.50:955][447]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.21-00.34.50:955][447]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2024.02.21-00.34.50:956][447]LogAIModule: Creating AISystem for world LearningKit_Games_Showcase
+[2024.02.21-00.34.50:956][447]LogPlayLevel: PIE: World Init took: (0.001087s)
+[2024.02.21-00.34.50:956][447]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2024.02.21-00.34.50:956][447]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.21-00.34.50:956][447]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.21-00.34.50:956][447]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.21-00.34.50:956][447]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.21-00.34.50:956][447]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.21-00.34.50:957][447]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.21-00.34.50:957][447]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.21-00.34.50:957][447]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.21-00.34.50:957][447]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.21-00.34.50:957][447]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.21-00.34.50:957][447]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.21-00.34.50:959][447]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.21-00.34.50:988][447]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.02.21-00.34.50:989][447]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.21-00.34.50:989][447]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.21-00.34.50:989][447]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.21-00.34.50:989][447]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2024.02.21-00.34.50:989][447]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2024.02.21-00.34.50:991][447]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2024.02.21-00.34.50:991][447]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2024.02.21-00.34.50:991][447]LogInit: FAudioDevice initialized with ID 13.
+[2024.02.21-00.34.50:991][447]LogAudio: Display: Audio Device (ID: 13) registered with world 'LearningKit_Games_Showcase'.
+[2024.02.21-00.34.50:991][447]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2024.02.21-00.34.50:994][447]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2024.02.21-00.34.51:006][447]LogWorld: Bringing World /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase up for play (max tick rate 0) at 2024.02.20-18.34.51
+[2024.02.21-00.34.52:884][447]LogWorld: Bringing up level for play took: 1.889188
+[2024.02.21-00.34.52:887][447]LogOnline: OSS: Created online subsystem instance for: :Context_29
+[2024.02.21-00.34.52:891][447]PIE: Server logged in
+[2024.02.21-00.34.52:892][447]PIE: Play in editor total start time 1.99 seconds.
+[2024.02.21-00.35.01:376][154]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.21-00.35.01:376][154]LogWorld: BeginTearingDown for /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase
+[2024.02.21-00.35.01:377][154]LogWorld: UWorld::CleanupWorld for LearningKit_Games_Showcase, bSessionEnded=true, bCleanupResources=true
+[2024.02.21-00.35.01:379][154]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.21-00.35.01:383][154]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.21-00.35.01:391][154]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.21-00.35.01:410][154]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.21-00.35.01:410][154]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2024.02.21-00.35.01:410][154]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.02.21-00.35.01:412][154]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.02.21-00.35.01:421][154]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2024.02.21-00.35.01:463][155]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2024.02.21-00.35.12:991][854]BlueprintLog: New page: Compile BP_MortarProjectile
+[2024.02.21-00.35.13:028][854]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2024.02.21-00.35.13:396][872]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.21-00.35.13:508][872]LogSavePackage: Moving output files for package: /Game/LearningKit_Games/Blueprints/StaticCharacter/BP_MortarProjectile
+[2024.02.21-00.35.13:509][872]LogSavePackage: Moving '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Saved/BP_MortarProjectileC4BF99CD4E1F871F55A411B8F60E6B80.tmp' to '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Content/LearningKit_Games/Blueprints/StaticCharacter/BP_MortarProjectile.uasset'
+[2024.02.21-00.35.13:517][872]LogFileHelpers: InternalPromptForCheckoutAndSave took 121 ms (total: 3.14 sec)
+[2024.02.21-00.35.13:519][872]AssetCheck: New page: Asset Save: BP_MortarProjectile
+[2024.02.21-00.35.13:519][872]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/LearningKit_Games/Blueprints/StaticCharacter/BP_MortarProjectile.BP_MortarProjectile
+[2024.02.21-00.35.15:781][ 29]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.21-00.35.15:788][ 29]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.21-00.35.15:788][ 29]PIE: New page: PIE session: LearningKit_Games_Showcase (Feb 20, 2024, 12:35:15 PM)
+[2024.02.21-00.35.15:788][ 29]LogPlayLevel: Creating play world package: /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase
+[2024.02.21-00.35.15:814][ 29]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025186s)
+[2024.02.21-00.35.15:814][ 29]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase to /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase (0.025227s)
+[2024.02.21-00.35.15:830][ 29]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2024.02.21-00.35.15:833][ 29]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.21-00.35.15:833][ 29]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2024.02.21-00.35.15:834][ 29]LogAIModule: Creating AISystem for world LearningKit_Games_Showcase
+[2024.02.21-00.35.15:834][ 29]LogPlayLevel: PIE: World Init took: (0.001010s)
+[2024.02.21-00.35.15:834][ 29]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2024.02.21-00.35.15:834][ 29]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.21-00.35.15:834][ 29]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.21-00.35.15:834][ 29]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.21-00.35.15:834][ 29]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.21-00.35.15:834][ 29]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.21-00.35.15:834][ 29]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.21-00.35.15:834][ 29]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.21-00.35.15:834][ 29]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.21-00.35.15:835][ 29]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.21-00.35.15:835][ 29]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.21-00.35.15:835][ 29]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.21-00.35.15:837][ 29]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.21-00.35.15:866][ 29]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.02.21-00.35.15:866][ 29]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.21-00.35.15:866][ 29]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.21-00.35.15:866][ 29]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.21-00.35.15:867][ 29]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2024.02.21-00.35.15:867][ 29]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2024.02.21-00.35.15:869][ 29]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2024.02.21-00.35.15:869][ 29]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2024.02.21-00.35.15:869][ 29]LogInit: FAudioDevice initialized with ID 14.
+[2024.02.21-00.35.15:869][ 29]LogAudio: Display: Audio Device (ID: 14) registered with world 'LearningKit_Games_Showcase'.
+[2024.02.21-00.35.15:869][ 29]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2024.02.21-00.35.15:872][ 29]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2024.02.21-00.35.15:884][ 29]LogWorld: Bringing World /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase up for play (max tick rate 0) at 2024.02.20-18.35.15
+[2024.02.21-00.35.17:743][ 29]LogWorld: Bringing up level for play took: 1.870345
+[2024.02.21-00.35.17:745][ 29]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2024.02.21-00.35.17:750][ 29]PIE: Server logged in
+[2024.02.21-00.35.17:750][ 29]PIE: Play in editor total start time 1.962 seconds.
+[2024.02.21-00.35.25:511][656]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.02.21-00.35.25:512][656]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.02.21-00.35.26:947][778]LogScript: Warning: Script Msg: The widget 'WBP_GameOver_C_1' was already added to the screen.
+[2024.02.21-00.35.26:947][778]LogScript: Warning: Script Msg called by: BP_LearningKit_PlayerCharacter_C /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.BP_LearningKit_PlayerCharacter_C_0
+[2024.02.21-00.35.28:305][894]LogScript: Warning: Script Msg: The widget 'WBP_GameOver_C_1' was already added to the screen.
+[2024.02.21-00.35.28:305][894]LogScript: Warning: Script Msg called by: BP_LearningKit_PlayerCharacter_C /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.BP_LearningKit_PlayerCharacter_C_0
+[2024.02.21-00.35.29:696][ 12]LogScript: Warning: Script Msg: The widget 'WBP_GameOver_C_1' was already added to the screen.
+[2024.02.21-00.35.29:696][ 12]LogScript: Warning: Script Msg called by: BP_LearningKit_PlayerCharacter_C /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.BP_LearningKit_PlayerCharacter_C_0
+[2024.02.21-00.35.31:076][132]LogScript: Warning: Script Msg: The widget 'WBP_GameOver_C_1' was already added to the screen.
+[2024.02.21-00.35.31:077][132]LogScript: Warning: Script Msg called by: BP_LearningKit_PlayerCharacter_C /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.BP_LearningKit_PlayerCharacter_C_0
+[2024.02.21-00.35.32:456][253]LogScript: Warning: Script Msg: The widget 'WBP_GameOver_C_1' was already added to the screen.
+[2024.02.21-00.35.32:456][253]LogScript: Warning: Script Msg called by: BP_LearningKit_PlayerCharacter_C /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.BP_LearningKit_PlayerCharacter_C_0
+[2024.02.21-00.35.33:960][385]LogScript: Warning: Script Msg: The widget 'WBP_GameOver_C_1' was already added to the screen.
+[2024.02.21-00.35.33:960][385]LogScript: Warning: Script Msg called by: BP_LearningKit_PlayerCharacter_C /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.BP_LearningKit_PlayerCharacter_C_0
+[2024.02.21-00.35.35:477][520]LogScript: Warning: Script Msg: The widget 'WBP_GameOver_C_1' was already added to the screen.
+[2024.02.21-00.35.35:478][520]LogScript: Warning: Script Msg called by: BP_LearningKit_PlayerCharacter_C /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.BP_LearningKit_PlayerCharacter_C_0
+[2024.02.21-00.35.36:346][595]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.21-00.35.36:347][595]LogWorld: BeginTearingDown for /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase
+[2024.02.21-00.35.36:347][595]LogWorld: UWorld::CleanupWorld for LearningKit_Games_Showcase, bSessionEnded=true, bCleanupResources=true
+[2024.02.21-00.35.36:349][595]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.21-00.35.36:352][595]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.21-00.35.36:362][595]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.21-00.35.36:379][595]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.21-00.35.36:379][595]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2024.02.21-00.35.36:379][595]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.02.21-00.35.36:381][595]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.02.21-00.35.36:384][595]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.21-00.35.36:390][595]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2024.02.21-00.35.36:419][596]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2024.02.21-00.37.09:676][463]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.21-00.37.09:836][463]LogSavePackage: Moving output files for package: /Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter
+[2024.02.21-00.37.09:837][463]LogSavePackage: Moving '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Saved/BP_LearningKit_PlayerCharacterDA6BEF664F6EE9FC4154A9AF10E3E6D2.tmp' to '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Content/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.uasset'
+[2024.02.21-00.37.09:847][463]LogFileHelpers: InternalPromptForCheckoutAndSave took 170 ms (total: 3.31 sec)
+[2024.02.21-00.37.09:849][463]AssetCheck: New page: Asset Save: BP_LearningKit_PlayerCharacter
+[2024.02.21-00.37.09:849][463]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter
+[2024.02.21-00.37.10:696][517]BlueprintLog: New page: Compile BP_LearningKit_PlayerCharacter
+[2024.02.21-00.37.10:732][517]LogBlueprint: Error: [AssetLog] C:\Users\cesco\OneDrive\Documents\Unreal Projects\UnrealLearningKit 5.3\Content\LearningKit_Games\Blueprints\PlayerCharacter\BP_LearningKit_PlayerCharacter.uasset: [Compiler] This blueprint (self) is not a PlayerState, therefore ' Target ' must have a connection.
+[2024.02.21-00.37.10:776][517]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2024.02.21-00.37.54:721][ 66]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.21-00.37.54:879][ 66]LogSavePackage: Moving output files for package: /Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter
+[2024.02.21-00.37.54:880][ 66]LogSavePackage: Moving '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Saved/BP_LearningKit_PlayerCharacter8B2A5EF04005B5C283633183BEA8B371.tmp' to '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Content/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.uasset'
+[2024.02.21-00.37.54:890][ 66]LogFileHelpers: InternalPromptForCheckoutAndSave took 168 ms (total: 3.48 sec)
+[2024.02.21-00.37.54:892][ 66]AssetCheck: New page: Asset Save: BP_LearningKit_PlayerCharacter
+[2024.02.21-00.37.54:892][ 66]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter
+[2024.02.21-00.37.55:836][121]BlueprintLog: New page: Compile BP_LearningKit_PlayerCharacter
+[2024.02.21-00.37.55:913][121]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2024.02.21-00.38.12:551][193]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.21-00.38.12:714][193]LogSavePackage: Moving output files for package: /Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter
+[2024.02.21-00.38.12:715][193]LogSavePackage: Moving '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Saved/BP_LearningKit_PlayerCharacter4EDE902441390F3F387098A35CC844DB.tmp' to '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Content/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.uasset'
+[2024.02.21-00.38.12:723][193]LogFileHelpers: InternalPromptForCheckoutAndSave took 171 ms (total: 3.65 sec)
+[2024.02.21-00.38.12:725][193]AssetCheck: New page: Asset Save: BP_LearningKit_PlayerCharacter
+[2024.02.21-00.38.12:725][193]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter
+[2024.02.21-00.38.51:301][263]LogEditorTransaction: Undo Move Node
+[2024.02.21-00.38.51:960][274]LogEditorTransaction: Undo Move Node
+[2024.02.21-00.38.52:726][316]LogEditorTransaction: Undo Move Node
+[2024.02.21-00.38.53:193][340]LogEditorTransaction: Undo Move Node
+[2024.02.21-00.38.53:584][358]LogEditorTransaction: Undo Move Node
+[2024.02.21-00.38.53:840][368]LogEditorTransaction: Undo Move Node
+[2024.02.21-00.38.54:033][374]LogEditorTransaction: Undo Move Node
+[2024.02.21-00.38.54:236][381]LogEditorTransaction: Undo Move Nodes
+[2024.02.21-00.38.54:455][389]LogEditorTransaction: Undo Move Nodes
+[2024.02.21-00.38.54:682][397]LogEditorTransaction: Undo Move Nodes
+[2024.02.21-00.38.54:908][403]LogEditorTransaction: Undo Add Node
+[2024.02.21-00.38.55:206][406]LogEditorTransaction: Undo Move Node
+[2024.02.21-00.38.55:888][433]LogEditorTransaction: Undo Move Node
+[2024.02.21-00.38.56:310][454]LogEditorTransaction: Undo Add Node
+[2024.02.21-00.38.56:805][481]LogEditorTransaction: Undo Move Node
+[2024.02.21-00.38.57:222][501]LogEditorTransaction: Undo Move Node
+[2024.02.21-00.38.57:620][521]LogEditorTransaction: Undo Move Nodes
+[2024.02.21-00.38.58:000][541]LogEditorTransaction: Undo Move Node
+[2024.02.21-00.38.58:433][563]LogEditorTransaction: Undo Add Node
+[2024.02.21-00.38.58:958][593]LogEditorTransaction: Undo Move Nodes
+[2024.02.21-00.39.00:390][658]LogEditorTransaction: Undo Break Pin Links
+[2024.02.21-00.39.01:208][705]LogEditorTransaction: Undo Create Pin Link
+[2024.02.21-00.39.02:363][774]LogEditorTransaction: Undo Add Pin
+[2024.02.21-00.39.03:790][864]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.21-00.39.03:961][864]LogSavePackage: Moving output files for package: /Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter
+[2024.02.21-00.39.03:962][864]LogSavePackage: Moving '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Saved/BP_LearningKit_PlayerCharacterDC439E9542E883DDBF2DB1A751DF85DD.tmp' to '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Content/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.uasset'
+[2024.02.21-00.39.03:971][864]LogFileHelpers: InternalPromptForCheckoutAndSave took 181 ms (total: 3.83 sec)
+[2024.02.21-00.39.03:974][864]AssetCheck: New page: Asset Save: BP_LearningKit_PlayerCharacter
+[2024.02.21-00.39.03:974][864]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter
+[2024.02.21-00.39.05:010][930]BlueprintLog: New page: Compile BP_LearningKit_PlayerCharacter
+[2024.02.21-00.39.05:107][930]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2024.02.21-00.42.19:515][805]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.21-00.42.19:661][805]LogSavePackage: Moving output files for package: /Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter
+[2024.02.21-00.42.19:662][805]LogSavePackage: Moving '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Saved/BP_LearningKit_PlayerCharacter66771F03493DC6FBF7C241859D24EE1E.tmp' to '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Content/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.uasset'
+[2024.02.21-00.42.19:670][805]LogFileHelpers: InternalPromptForCheckoutAndSave took 155 ms (total: 3.99 sec)
+[2024.02.21-00.42.19:672][805]AssetCheck: New page: Asset Save: BP_LearningKit_PlayerCharacter
+[2024.02.21-00.42.19:672][805]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter
+[2024.02.21-00.42.22:300][940]BlueprintLog: New page: Compile BP_LearningKit_PlayerCharacter
+[2024.02.21-00.42.22:384][940]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2024.02.21-00.42.25:720][131]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.21-00.42.25:730][131]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.21-00.42.25:730][131]PIE: New page: PIE session: LearningKit_Games_Showcase (Feb 20, 2024, 12:42:25 PM)
+[2024.02.21-00.42.25:755][131]LogPlayLevel: Creating play world package: /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase
+[2024.02.21-00.42.25:780][131]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025673s)
+[2024.02.21-00.42.25:780][131]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase to /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase (0.025725s)
+[2024.02.21-00.42.25:799][131]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2024.02.21-00.42.25:809][131]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.21-00.42.25:810][131]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2024.02.21-00.42.25:810][131]LogAIModule: Creating AISystem for world LearningKit_Games_Showcase
+[2024.02.21-00.42.25:810][131]LogPlayLevel: PIE: World Init took: (0.001103s)
+[2024.02.21-00.42.25:811][131]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2024.02.21-00.42.25:811][131]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.21-00.42.25:811][131]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.21-00.42.25:811][131]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.21-00.42.25:811][131]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.21-00.42.25:811][131]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.21-00.42.25:811][131]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.21-00.42.25:811][131]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.21-00.42.25:811][131]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.21-00.42.25:811][131]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.21-00.42.25:811][131]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.21-00.42.25:811][131]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.21-00.42.25:813][131]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.21-00.42.25:842][131]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.02.21-00.42.25:843][131]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.21-00.42.25:843][131]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.21-00.42.25:843][131]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.21-00.42.25:843][131]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2024.02.21-00.42.25:843][131]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2024.02.21-00.42.25:846][131]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2024.02.21-00.42.25:846][131]LogInit: FAudioDevice initialized with ID 15.
+[2024.02.21-00.42.25:846][131]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2024.02.21-00.42.25:846][131]LogAudio: Display: Audio Device (ID: 15) registered with world 'LearningKit_Games_Showcase'.
+[2024.02.21-00.42.25:846][131]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2024.02.21-00.42.25:849][131]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2024.02.21-00.42.25:862][131]LogWorld: Bringing World /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase up for play (max tick rate 0) at 2024.02.20-18.42.25
+[2024.02.21-00.42.27:733][131]LogWorld: Bringing up level for play took: 1.882907
+[2024.02.21-00.42.27:735][131]LogOnline: OSS: Created online subsystem instance for: :Context_31
+[2024.02.21-00.42.27:740][131]PIE: Server logged in
+[2024.02.21-00.42.27:741][131]PIE: Play in editor total start time 2.011 seconds.
+[2024.02.21-00.42.35:462][758]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.02.21-00.42.35:463][758]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.02.21-00.42.36:837][874]LogScript: Warning: Script Msg: The widget 'WBP_GameOver_C_1' was already added to the screen.
+[2024.02.21-00.42.36:837][874]LogScript: Warning: Script Msg called by: BP_LearningKit_PlayerCharacter_C /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.BP_LearningKit_PlayerCharacter_C_0
+[2024.02.21-00.42.38:228][992]LogScript: Warning: Script Msg: The widget 'WBP_GameOver_C_1' was already added to the screen.
+[2024.02.21-00.42.38:229][992]LogScript: Warning: Script Msg called by: BP_LearningKit_PlayerCharacter_C /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.BP_LearningKit_PlayerCharacter_C_0
+[2024.02.21-00.42.39:432][ 96]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.02.21-00.42.39:432][ 96]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.02.21-00.42.40:299][168]LogBlueprintUserMessages: [Health_Pickup_BP_C_8] Collectable
+[2024.02.21-00.42.40:354][169]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.21-00.42.40:354][169]LogWorld: BeginTearingDown for /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase
+[2024.02.21-00.42.40:355][169]LogWorld: UWorld::CleanupWorld for LearningKit_Games_Showcase, bSessionEnded=true, bCleanupResources=true
+[2024.02.21-00.42.40:356][169]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.21-00.42.40:360][169]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.21-00.42.40:369][169]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.21-00.42.40:387][169]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.21-00.42.40:387][169]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2024.02.21-00.42.40:387][169]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.02.21-00.42.40:389][169]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.02.21-00.42.40:394][169]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.21-00.42.40:399][169]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2024.02.21-00.42.40:438][170]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2024.02.21-00.42.43:820][424]LogShaderCompilers: Display: ================================================
+[2024.02.21-00.42.43:820][424]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.02.21-00.42.43:820][424]LogShaderCompilers: Display: Total job queries 223, among them cache hits 75 (33.63%)
+[2024.02.21-00.42.43:820][424]LogShaderCompilers: Display: Tracking 148 distinct input hashes that result in 106 distinct outputs (71.62%)
+[2024.02.21-00.42.43:820][424]LogShaderCompilers: Display: RAM used: 4.44 MiB of 1.60 GiB budget. Usage: 0.27%
+[2024.02.21-00.42.43:820][424]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.02.21-00.42.43:820][424]LogShaderCompilers: Display: Shaders Compiled: 82
+[2024.02.21-00.42.43:820][424]LogShaderCompilers: Display: Jobs assigned 82, completed 82 (100%)
+[2024.02.21-00.42.43:820][424]LogShaderCompilers: Display: Average time worker was idle: 12.24 s
+[2024.02.21-00.42.43:820][424]LogShaderCompilers: Display: Time job spent in pending queue: average 0.59 s, longest 1.97 s
+[2024.02.21-00.42.43:820][424]LogShaderCompilers: Display: Job execution time: average 0.53 s, max 1.28 s
+[2024.02.21-00.42.43:820][424]LogShaderCompilers: Display: Job life time (pending + execution): average 1.12 s, max 2.29
+[2024.02.21-00.42.43:820][424]LogShaderCompilers: Display: Shader code size: average 69.715 KiB, min 35.188 KiB, max 75.273 KiB
+[2024.02.21-00.42.43:820][424]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 6.82 s
+[2024.02.21-00.42.43:820][424]LogShaderCompilers: Display: Jobs were issued in 82 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.02.21-00.42.43:820][424]LogShaderCompilers: Display: Average processing rate: 12.02 jobs/sec
+[2024.02.21-00.42.43:820][424]LogShaderCompilers: Display: Total thread time: 29.067 s
+[2024.02.21-00.42.43:820][424]LogShaderCompilers: Display: Total thread preprocess time: 2.598 s
+[2024.02.21-00.42.43:820][424]LogShaderCompilers: Display: Percentage time preprocessing: 8.94%
+[2024.02.21-00.42.43:820][424]LogShaderCompilers: Display: Effective parallelization: 4.26 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.02.21-00.42.43:820][424]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.02.21-00.42.43:820][424]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   29 times, average 0.43 sec, max 0.53 sec, min 0.29 sec)
+[2024.02.21-00.42.43:820][424]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled   14 times, average 0.36 sec, max 0.40 sec, min 0.27 sec)
+[2024.02.21-00.42.43:820][424]LogShaderCompilers: Display:                   TBasePassVSFSelfShadowedTranslucencyPolicy (compiled   10 times, average 0.31 sec, max 0.33 sec, min 0.28 sec)
+[2024.02.21-00.42.43:820][424]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   15 times, average 0.31 sec, max 0.36 sec, min 0.25 sec)
+[2024.02.21-00.42.43:820][424]LogShaderCompilers: Display:                   TBasePassPSFSelfShadowedTranslucencyPolicy (compiled   10 times, average 0.29 sec, max 0.32 sec, min 0.26 sec)
+[2024.02.21-00.42.43:820][424]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.02.21-00.42.43:820][424]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 43.26% of total time (compiled   29 times, average 0.43 sec, max 0.53 sec, min 0.29 sec)
+[2024.02.21-00.42.43:820][424]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 17.30% of total time (compiled   14 times, average 0.36 sec, max 0.40 sec, min 0.27 sec)
+[2024.02.21-00.42.43:820][424]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 15.79% of total time (compiled   15 times, average 0.31 sec, max 0.36 sec, min 0.25 sec)
+[2024.02.21-00.42.43:820][424]LogShaderCompilers: Display:                   TBasePassVSFSelfShadowedTranslucencyPolicy - 10.64% of total time (compiled   10 times, average 0.31 sec, max 0.33 sec, min 0.28 sec)
+[2024.02.21-00.42.43:820][424]LogShaderCompilers: Display:                   TBasePassPSFSelfShadowedTranslucencyPolicy - 10.07% of total time (compiled   10 times, average 0.29 sec, max 0.32 sec, min 0.26 sec)
+[2024.02.21-00.42.43:821][424]LogShaderCompilers: Display: ================================================
+[2024.02.21-00.42.44:939][504]Cmd: SELECT NONE
+[2024.02.21-00.44.27:384][900]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.21-00.44.27:556][900]LogSavePackage: Moving output files for package: /Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter
+[2024.02.21-00.44.27:557][900]LogSavePackage: Moving '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Saved/BP_LearningKit_PlayerCharacterCFB38B0045A578DE8D615491282C9053.tmp' to '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Content/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.uasset'
+[2024.02.21-00.44.27:566][900]LogFileHelpers: InternalPromptForCheckoutAndSave took 182 ms (total: 4.17 sec)
+[2024.02.21-00.44.27:569][900]AssetCheck: New page: Asset Save: BP_LearningKit_PlayerCharacter
+[2024.02.21-00.44.27:569][900]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter
+[2024.02.21-00.44.28:618][961]BlueprintLog: New page: Compile BP_LearningKit_PlayerCharacter
+[2024.02.21-00.44.28:649][961]LogBlueprint: Error: [AssetLog] C:\Users\cesco\OneDrive\Documents\Unreal Projects\UnrealLearningKit 5.3\Content\LearningKit_Games\Blueprints\PlayerCharacter\BP_LearningKit_PlayerCharacter.uasset: [Compiler] This blueprint (self) is not a CharacterMovementComponent, therefore ' Target ' must have a connection.
+[2024.02.21-00.44.28:695][961]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2024.02.21-00.45.18:357][826]BlueprintLog: New page: Compile BP_LearningKit_PlayerCharacter
+[2024.02.21-00.45.18:443][826]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2024.02.21-00.45.19:443][886]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.21-00.45.19:617][886]LogSavePackage: Moving output files for package: /Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter
+[2024.02.21-00.45.19:618][886]LogSavePackage: Moving '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Saved/BP_LearningKit_PlayerCharacterD85342FA4AD5D029C087D1AFA798EAFA.tmp' to '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Content/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.uasset'
+[2024.02.21-00.45.19:627][886]LogFileHelpers: InternalPromptForCheckoutAndSave took 184 ms (total: 4.35 sec)
+[2024.02.21-00.45.19:629][886]AssetCheck: New page: Asset Save: BP_LearningKit_PlayerCharacter
+[2024.02.21-00.45.19:629][886]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter
+[2024.02.21-00.45.48:433][725]LogSlate: Took 0.006706 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2024.02.21-00.46.53:679][579]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.21-00.46.53:851][579]LogSavePackage: Moving output files for package: /Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter
+[2024.02.21-00.46.53:852][579]LogSavePackage: Moving '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Saved/BP_LearningKit_PlayerCharacter5BA7379A493CC21C50066CAA8DD17C75.tmp' to '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Content/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.uasset'
+[2024.02.21-00.46.53:861][579]LogFileHelpers: InternalPromptForCheckoutAndSave took 182 ms (total: 4.54 sec)
+[2024.02.21-00.46.53:864][579]AssetCheck: New page: Asset Save: BP_LearningKit_PlayerCharacter
+[2024.02.21-00.46.53:864][579]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter
+[2024.02.21-00.46.54:913][649]BlueprintLog: New page: Compile BP_LearningKit_PlayerCharacter
+[2024.02.21-00.46.55:006][649]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2024.02.21-00.46.59:381][933]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.21-00.46.59:389][933]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.21-00.46.59:389][933]PIE: New page: PIE session: LearningKit_Games_Showcase (Feb 20, 2024, 12:46:59 PM)
+[2024.02.21-00.46.59:413][933]LogPlayLevel: Creating play world package: /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase
+[2024.02.21-00.46.59:437][933]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024399s)
+[2024.02.21-00.46.59:437][933]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase to /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase (0.024449s)
+[2024.02.21-00.46.59:456][933]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2024.02.21-00.46.59:462][933]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.21-00.46.59:462][933]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2024.02.21-00.46.59:462][933]LogAIModule: Creating AISystem for world LearningKit_Games_Showcase
+[2024.02.21-00.46.59:463][933]LogPlayLevel: PIE: World Init took: (0.001275s)
+[2024.02.21-00.46.59:463][933]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2024.02.21-00.46.59:463][933]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.21-00.46.59:463][933]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.21-00.46.59:463][933]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.21-00.46.59:463][933]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.21-00.46.59:463][933]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.21-00.46.59:463][933]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.21-00.46.59:463][933]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.21-00.46.59:463][933]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.21-00.46.59:464][933]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.21-00.46.59:464][933]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.21-00.46.59:464][933]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.21-00.46.59:466][933]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.21-00.46.59:497][933]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.02.21-00.46.59:497][933]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.21-00.46.59:497][933]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.21-00.46.59:497][933]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.21-00.46.59:498][933]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2024.02.21-00.46.59:498][933]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2024.02.21-00.46.59:500][933]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2024.02.21-00.46.59:500][933]LogInit: FAudioDevice initialized with ID 16.
+[2024.02.21-00.46.59:500][933]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2024.02.21-00.46.59:500][933]LogAudio: Display: Audio Device (ID: 16) registered with world 'LearningKit_Games_Showcase'.
+[2024.02.21-00.46.59:500][933]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2024.02.21-00.46.59:503][933]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2024.02.21-00.46.59:515][933]LogWorld: Bringing World /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase up for play (max tick rate 0) at 2024.02.20-18.46.59
+[2024.02.21-00.47.01:353][933]LogWorld: Bringing up level for play took: 1.850126
+[2024.02.21-00.47.01:356][933]LogOnline: OSS: Created online subsystem instance for: :Context_32
+[2024.02.21-00.47.01:360][933]PIE: Server logged in
+[2024.02.21-00.47.01:361][933]PIE: Play in editor total start time 1.973 seconds.
+[2024.02.21-00.47.07:638][454]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.02.21-00.47.07:638][454]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.02.21-00.47.09:119][578]LogScript: Warning: Script Msg: The widget 'WBP_GameOver_C_1' was already added to the screen.
+[2024.02.21-00.47.09:119][578]LogScript: Warning: Script Msg called by: BP_LearningKit_PlayerCharacter_C /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.BP_LearningKit_PlayerCharacter_C_0
+[2024.02.21-00.47.10:029][656]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.02.21-00.47.10:029][656]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.02.21-00.47.11:893][811]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.21-00.47.11:893][811]LogWorld: BeginTearingDown for /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase
+[2024.02.21-00.47.11:894][811]LogWorld: UWorld::CleanupWorld for LearningKit_Games_Showcase, bSessionEnded=true, bCleanupResources=true
+[2024.02.21-00.47.11:895][811]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.21-00.47.11:900][811]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.21-00.47.11:909][811]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.21-00.47.11:927][811]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.21-00.47.11:928][811]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2024.02.21-00.47.11:928][811]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.02.21-00.47.11:930][811]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.02.21-00.47.11:934][811]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.21-00.47.11:940][811]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2024.02.21-00.47.11:984][812]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2024.02.21-00.48.29:644][860]LogEditorTransaction: Undo Move Nodes
+[2024.02.21-00.48.29:955][862]LogEditorTransaction: Undo Create Pin Link
+[2024.02.21-00.48.30:852][901]LogEditorTransaction: Undo Break Pin Links
+[2024.02.21-00.48.31:450][935]LogEditorTransaction: Undo Add Pin
+[2024.02.21-00.48.43:608][616]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.21-00.48.43:777][616]LogSavePackage: Moving output files for package: /Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter
+[2024.02.21-00.48.43:778][616]LogSavePackage: Moving '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Saved/BP_LearningKit_PlayerCharacterDCF9DFB645609D5AC3E90F9DD27C0BD5.tmp' to '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Content/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.uasset'
+[2024.02.21-00.48.43:787][616]LogFileHelpers: InternalPromptForCheckoutAndSave took 179 ms (total: 4.71 sec)
+[2024.02.21-00.48.43:790][616]AssetCheck: New page: Asset Save: BP_LearningKit_PlayerCharacter
+[2024.02.21-00.48.43:790][616]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter
+[2024.02.21-00.48.44:914][690]BlueprintLog: New page: Compile BP_LearningKit_PlayerCharacter
+[2024.02.21-00.48.45:003][690]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2024.02.21-00.48.47:378][844]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.21-00.48.47:386][844]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.21-00.48.47:386][844]PIE: New page: PIE session: LearningKit_Games_Showcase (Feb 20, 2024, 12:48:47 PM)
+[2024.02.21-00.48.47:387][844]LogPlayLevel: Creating play world package: /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase
+[2024.02.21-00.48.47:413][844]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026007s)
+[2024.02.21-00.48.47:413][844]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase to /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase (0.026053s)
+[2024.02.21-00.48.47:431][844]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2024.02.21-00.48.47:435][844]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.21-00.48.47:435][844]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2024.02.21-00.48.47:435][844]LogAIModule: Creating AISystem for world LearningKit_Games_Showcase
+[2024.02.21-00.48.47:436][844]LogPlayLevel: PIE: World Init took: (0.001112s)
+[2024.02.21-00.48.47:436][844]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2024.02.21-00.48.47:436][844]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.21-00.48.47:436][844]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.21-00.48.47:436][844]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.21-00.48.47:436][844]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.21-00.48.47:436][844]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.21-00.48.47:436][844]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.21-00.48.47:436][844]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.21-00.48.47:436][844]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.21-00.48.47:436][844]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.21-00.48.47:436][844]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.21-00.48.47:436][844]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.21-00.48.47:439][844]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.21-00.48.47:468][844]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.02.21-00.48.47:468][844]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.21-00.48.47:468][844]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.21-00.48.47:468][844]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.21-00.48.47:469][844]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2024.02.21-00.48.47:469][844]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2024.02.21-00.48.47:471][844]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2024.02.21-00.48.47:471][844]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2024.02.21-00.48.47:471][844]LogInit: FAudioDevice initialized with ID 17.
+[2024.02.21-00.48.47:471][844]LogAudio: Display: Audio Device (ID: 17) registered with world 'LearningKit_Games_Showcase'.
+[2024.02.21-00.48.47:471][844]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 17
+[2024.02.21-00.48.47:474][844]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2024.02.21-00.48.47:488][844]LogWorld: Bringing World /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase up for play (max tick rate 0) at 2024.02.20-18.48.47
+[2024.02.21-00.48.49:341][844]LogWorld: Bringing up level for play took: 1.867525
+[2024.02.21-00.48.49:344][844]LogOnline: OSS: Created online subsystem instance for: :Context_33
+[2024.02.21-00.48.49:349][844]PIE: Server logged in
+[2024.02.21-00.48.49:350][844]PIE: Play in editor total start time 1.964 seconds.
+[2024.02.21-00.48.55:293][329]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.02.21-00.48.55:293][329]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.02.21-00.48.56:777][455]LogScript: Warning: Script Msg: The widget 'WBP_GameOver_C_1' was already added to the screen.
+[2024.02.21-00.48.56:777][455]LogScript: Warning: Script Msg called by: BP_LearningKit_PlayerCharacter_C /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.BP_LearningKit_PlayerCharacter_C_0
+[2024.02.21-00.48.57:640][530]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.02.21-00.48.57:640][530]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.02.21-00.49.01:876][892]LogBlueprintUserMessages: [Health_Pickup_BP_C_8] Collectable
+[2024.02.21-00.49.08:962][486]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.02.21-00.49.08:962][486]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.02.21-00.49.10:427][612]LogScript: Warning: Script Msg: The widget 'WBP_GameOver_C_2' was already added to the screen.
+[2024.02.21-00.49.10:428][612]LogScript: Warning: Script Msg called by: BP_LearningKit_PlayerCharacter_C /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.BP_LearningKit_PlayerCharacter_C_0
+[2024.02.21-00.49.11:193][677]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.21-00.49.11:194][677]LogWorld: BeginTearingDown for /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase
+[2024.02.21-00.49.11:194][677]LogWorld: UWorld::CleanupWorld for LearningKit_Games_Showcase, bSessionEnded=true, bCleanupResources=true
+[2024.02.21-00.49.11:196][677]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.21-00.49.11:200][677]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.21-00.49.11:208][677]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.21-00.49.11:226][677]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.21-00.49.11:226][677]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 17
+[2024.02.21-00.49.11:226][677]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2024.02.21-00.49.11:228][677]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2024.02.21-00.49.11:231][677]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.21-00.49.11:237][677]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2024.02.21-00.49.11:266][678]LogPlayLevel: Display: Destroying online subsystem :Context_33
