@@ -12103,3 +12103,156 @@ LogConfig: CVar [[r.Occlusion.SingleRHIThreadStall:1]] deferred - dummy variable
 [2024.02.24-22.39.37:531][192]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
 [2024.02.24-22.39.37:544][192]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
 [2024.02.24-22.39.37:595][193]LogPlayLevel: Display: Destroying online subsystem :Context_52
+[2024.02.24-22.44.43:086][667]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2024.02.24-22.44.43:086][667]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.24-22.44.43:835][705]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.02.24-22.44.43:835][705]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2024.02.24-22.44.43:835][705]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.24-22.44.47:674][922]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2024.02.24-22.44.47:674][922]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.24-22.44.47:684][922]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2024.02.24-22.44.47:684][922]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.24-22.44.55:742][412]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2024.02.24-22.44.55:742][412]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.24-22.44.55:750][412]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2024.02.24-22.44.55:751][412]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.24-22.45.26:459][901]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.24-22.45.26:652][901]LogSavePackage: Moving output files for package: /Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter
+[2024.02.24-22.45.26:664][901]LogSavePackage: Moving '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Saved/BP_LearningKit_PlayerCharacter09AC10B34DE96108AE9695AB810A0F0D.tmp' to '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Content/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.uasset'
+[2024.02.24-22.45.26:672][901]LogFileHelpers: InternalPromptForCheckoutAndSave took 213 ms (total: 9.48 sec)
+[2024.02.24-22.45.26:675][901]AssetCheck: New page: Asset Save: BP_LearningKit_PlayerCharacter
+[2024.02.24-22.45.26:675][901]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter
+[2024.02.24-22.47.36:576][509]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.24-22.47.36:766][509]LogSavePackage: Moving output files for package: /Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter
+[2024.02.24-22.47.36:767][509]LogSavePackage: Moving '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Saved/BP_LearningKit_PlayerCharacterC4EFCB044B145C1F8C14A08526174191.tmp' to '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Content/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.uasset'
+[2024.02.24-22.47.36:777][509]LogFileHelpers: InternalPromptForCheckoutAndSave took 200 ms (total: 9.68 sec)
+[2024.02.24-22.47.36:780][509]AssetCheck: New page: Asset Save: BP_LearningKit_PlayerCharacter
+[2024.02.24-22.47.36:780][509]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter
+[2024.02.24-22.47.38:103][564]BlueprintLog: New page: Compile BP_LearningKit_PlayerCharacter
+[2024.02.24-22.47.38:274][564]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2024.02.24-22.47.41:181][715]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.24-22.47.41:192][715]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.24-22.47.41:193][715]PIE: New page: PIE session: LearningKit_Games_Showcase (Feb 24, 2024, 10:47:41 AM)
+[2024.02.24-22.47.41:193][715]LogPlayLevel: Creating play world package: /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase
+[2024.02.24-22.47.41:230][715]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037038s)
+[2024.02.24-22.47.41:230][715]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase to /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase (0.037080s)
+[2024.02.24-22.47.41:254][715]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2024.02.24-22.47.41:273][715]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.24-22.47.41:274][715]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2024.02.24-22.47.41:274][715]LogAIModule: Creating AISystem for world LearningKit_Games_Showcase
+[2024.02.24-22.47.41:275][715]LogPlayLevel: PIE: World Init took: (0.001287s)
+[2024.02.24-22.47.41:275][715]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2024.02.24-22.47.41:275][715]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.24-22.47.41:275][715]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.24-22.47.41:275][715]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.24-22.47.41:275][715]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.24-22.47.41:275][715]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.24-22.47.41:275][715]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.24-22.47.41:275][715]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.24-22.47.41:275][715]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.24-22.47.41:275][715]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.24-22.47.41:275][715]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.24-22.47.41:275][715]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.24-22.47.41:278][715]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.24-22.47.41:308][715]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.02.24-22.47.41:308][715]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.24-22.47.41:308][715]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.24-22.47.41:308][715]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.24-22.47.41:309][715]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2024.02.24-22.47.41:309][715]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2024.02.24-22.47.41:311][715]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2024.02.24-22.47.41:311][715]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2024.02.24-22.47.41:311][715]LogInit: FAudioDevice initialized with ID 21.
+[2024.02.24-22.47.41:311][715]LogAudio: Display: Audio Device (ID: 21) registered with world 'LearningKit_Games_Showcase'.
+[2024.02.24-22.47.41:311][715]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 21
+[2024.02.24-22.47.41:314][715]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2024.02.24-22.47.41:335][715]LogWorld: Bringing World /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase up for play (max tick rate 0) at 2024.02.24-16.47.41
+[2024.02.24-22.47.43:255][715]LogWorld: Bringing up level for play took: 1.940294
+[2024.02.24-22.47.43:257][715]LogOnline: OSS: Created online subsystem instance for: :Context_53
+[2024.02.24-22.47.43:300][715]PIE: Server logged in
+[2024.02.24-22.47.43:301][715]PIE: Play in editor total start time 2.108 seconds.
+[2024.02.24-22.48.08:741][308]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.02.24-22.48.08:741][308]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.02.24-22.48.09:977][406]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.02.24-22.48.09:977][406]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.02.24-22.48.10:816][466]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.24-22.48.10:816][466]LogWorld: BeginTearingDown for /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase
+[2024.02.24-22.48.10:816][466]LogWorld: UWorld::CleanupWorld for LearningKit_Games_Showcase, bSessionEnded=true, bCleanupResources=true
+[2024.02.24-22.48.10:821][466]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.24-22.48.10:826][466]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.24-22.48.10:835][466]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.24-22.48.10:864][466]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.24-22.48.10:864][466]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 21
+[2024.02.24-22.48.10:864][466]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2024.02.24-22.48.10:866][466]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2024.02.24-22.48.10:870][466]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.24-22.48.10:879][466]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2024.02.24-22.48.10:929][467]LogPlayLevel: Display: Destroying online subsystem :Context_53
+[2024.02.24-22.51.28:387][158]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2024.02.24-22.51.28:392][158]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/LearningKit_Games/Maps/LearningKit_Games_Showcase' took 0.030
+[2024.02.24-22.51.28:393][158]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter] ([2] browsable assets)...
+[2024.02.24-22.51.28:452][158]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter]
+[2024.02.24-22.51.28:452][158]OBJ SavePackage: Finished generating thumbnails for package [/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter]
+[2024.02.24-22.51.28:535][158]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter_Auto0
+[2024.02.24-22.51.28:535][158]LogSavePackage: Moving '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Saved/BP_LearningKit_PlayerCharacter_A5E195FBF45112DF81CC86499B6C99739.tmp' to '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Saved/Autosaves/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter_Auto0.uasset'
+[2024.02.24-22.51.28:537][158]LogFileHelpers: Auto-saving content packages took 0.144
+[2024.02.24-22.51.39:650][756]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.24-22.51.39:845][756]LogSavePackage: Moving output files for package: /Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter
+[2024.02.24-22.51.39:846][756]LogSavePackage: Moving '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Saved/BP_LearningKit_PlayerCharacterC500A73D4CB1659F9F47C683D3CDDDE3.tmp' to '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Content/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.uasset'
+[2024.02.24-22.51.39:856][756]LogFileHelpers: InternalPromptForCheckoutAndSave took 206 ms (total: 9.89 sec)
+[2024.02.24-22.51.39:858][756]AssetCheck: New page: Asset Save: BP_LearningKit_PlayerCharacter
+[2024.02.24-22.51.39:858][756]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter
+[2024.02.24-22.51.42:532][919]BlueprintLog: New page: Compile BP_LearningKit_PlayerCharacter
+[2024.02.24-22.51.42:703][919]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2024.02.24-22.55.06:310][800]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.24-22.55.06:506][800]LogSavePackage: Moving output files for package: /Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter
+[2024.02.24-22.55.06:507][800]LogSavePackage: Moving '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Saved/BP_LearningKit_PlayerCharacter1703588548980A333398FD90DC4EA355.tmp' to '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Content/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.uasset'
+[2024.02.24-22.55.06:517][800]LogFileHelpers: InternalPromptForCheckoutAndSave took 207 ms (total: 10.1 sec)
+[2024.02.24-22.55.06:521][800]AssetCheck: New page: Asset Save: BP_LearningKit_PlayerCharacter
+[2024.02.24-22.55.06:521][800]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter
+[2024.02.24-22.55.07:709][873]BlueprintLog: New page: Compile BP_LearningKit_PlayerCharacter
+[2024.02.24-22.55.07:873][873]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2024.02.24-22.56.44:685][463]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.24-22.56.44:885][463]LogSavePackage: Moving output files for package: /Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter
+[2024.02.24-22.56.44:886][463]LogSavePackage: Moving '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Saved/BP_LearningKit_PlayerCharacterA08AC81349F07238105FBD9FE3E2963C.tmp' to '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Content/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.uasset'
+[2024.02.24-22.56.44:896][463]LogFileHelpers: InternalPromptForCheckoutAndSave took 210 ms (total: 10.3 sec)
+[2024.02.24-22.56.44:899][463]AssetCheck: New page: Asset Save: BP_LearningKit_PlayerCharacter
+[2024.02.24-22.56.44:899][463]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter
+[2024.02.24-22.56.45:458][499]BlueprintLog: New page: Compile BP_LearningKit_PlayerCharacter
+[2024.02.24-22.56.45:627][499]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2024.02.24-22.57.48:917][ 66]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.24-22.57.49:115][ 66]LogSavePackage: Moving output files for package: /Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter
+[2024.02.24-22.57.49:116][ 66]LogSavePackage: Moving '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Saved/BP_LearningKit_PlayerCharacter4CB93272444D5CA7E5C91FA36602E36F.tmp' to '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Content/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.uasset'
+[2024.02.24-22.57.49:126][ 66]LogFileHelpers: InternalPromptForCheckoutAndSave took 209 ms (total: 10.5 sec)
+[2024.02.24-22.57.49:129][ 66]AssetCheck: New page: Asset Save: BP_LearningKit_PlayerCharacter
+[2024.02.24-22.57.49:129][ 66]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter
+[2024.02.24-22.57.49:758][ 90]BlueprintLog: New page: Compile BP_LearningKit_PlayerCharacter
+[2024.02.24-22.57.49:925][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2024.02.24-23.01.56:043][792]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2024.02.24-23.01.56:050][792]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/LearningKit_Games/Maps/LearningKit_Games_Showcase' took 0.038
+[2024.02.24-23.01.56:051][792]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter] ([2] browsable assets)...
+[2024.02.24-23.01.56:095][792]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter]
+[2024.02.24-23.01.56:095][792]OBJ SavePackage: Finished generating thumbnails for package [/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter]
+[2024.02.24-23.01.56:184][792]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter_Auto1
+[2024.02.24-23.01.56:185][792]LogSavePackage: Moving '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Saved/BP_LearningKit_PlayerCharacter_A36239F084056D1452FC19996288FFB3C.tmp' to '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Saved/Autosaves/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter_Auto1.uasset'
+[2024.02.24-23.01.56:186][792]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/LearningKit_Games/UI/WBP_Score] ([2] browsable assets)...
+[2024.02.24-23.01.56:189][792]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/LearningKit_Games/UI/WBP_Score.WBP_Score]
+[2024.02.24-23.01.56:189][792]OBJ SavePackage: Finished generating thumbnails for package [/Game/LearningKit_Games/UI/WBP_Score]
+[2024.02.24-23.01.56:195][792]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/LearningKit_Games/UI/WBP_Score_Auto1
+[2024.02.24-23.01.56:195][792]LogSavePackage: Moving '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Saved/WBP_Score_Auto143ED331544F117C8FB4BDF9267552AFF.tmp' to '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Saved/Autosaves/Game/LearningKit_Games/UI/WBP_Score_Auto1.uasset'
+[2024.02.24-23.01.56:195][792]LogFileHelpers: Auto-saving content packages took 0.145
+[2024.02.24-23.06.49:526][233]LogEditorTransaction: Undo Edit Right
+[2024.02.24-23.07.19:366][872]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.24-23.07.19:440][872]LogSavePackage: Moving output files for package: /Game/LearningKit_Games/UI/WBP_Score
+[2024.02.24-23.07.19:441][872]LogSavePackage: Moving '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Saved/WBP_Score09218F1C4E89B7CBB01A4C81C3751132.tmp' to '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Content/LearningKit_Games/UI/WBP_Score.uasset'
+[2024.02.24-23.07.19:449][872]LogFileHelpers: InternalPromptForCheckoutAndSave took 83 ms (total: 10.6 sec)
+[2024.02.24-23.07.19:451][872]AssetCheck: New page: Asset Save: WBP_Score
+[2024.02.24-23.07.19:451][872]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/LearningKit_Games/UI/WBP_Score.WBP_Score
+[2024.02.24-23.07.23:598][134]BlueprintLog: New page: Compile WBP_Score
+[2024.02.24-23.07.23:675][134]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2024.02.24-23.07.26:279][217]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.24-23.07.26:448][217]LogSavePackage: Moving output files for package: /Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter
+[2024.02.24-23.07.26:449][217]LogSavePackage: Moving '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Saved/BP_LearningKit_PlayerCharacter024E6EFA4738A14D1F04A49C43126711.tmp' to '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Content/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.uasset'
+[2024.02.24-23.07.26:459][217]LogFileHelpers: InternalPromptForCheckoutAndSave took 179 ms (total: 10.7 sec)
+[2024.02.24-23.07.26:461][217]AssetCheck: New page: Asset Save: BP_LearningKit_PlayerCharacter
+[2024.02.24-23.07.26:461][217]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter
