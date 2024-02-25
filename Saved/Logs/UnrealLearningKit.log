@@ -16322,3 +16322,203 @@ Make sure 'BP_LearningKit_PlayerCharacter_C' has been compiled for  Get Starting
 [2024.02.25-04.13.32:883][910]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2024.02.25-04.13.32:891][910]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
 [2024.02.25-04.13.32:931][911]LogPlayLevel: Display: Destroying online subsystem :Context_96
+[2024.02.25-04.15.55:973][396]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/LearningKit_Games/Blueprints/AICharacter/Pursuer/BP_Pursuer.BP_Pursuer_C
+[2024.02.25-04.15.55:973][396]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/LearningKit_Games/Blueprints/AICharacter/Pursuer/BP_Pursuer.BP_Pursuer_C
+[2024.02.25-04.15.55:977][396]LogActorFactory: Actor Factory spawned Blueprint /Game/LearningKit_Games/Blueprints/AICharacter/Pursuer/BP_Pursuer.BP_Pursuer as actor: BP_Pursuer_C /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.BP_Pursuer_C_0
+[2024.02.25-04.15.55:978][396]LogActorFactory: Actor Factory spawned Blueprint /Game/LearningKit_Games/Blueprints/AICharacter/Pursuer/BP_Pursuer.BP_Pursuer as actor: BP_Pursuer_C /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.BP_Pursuer_C_0
+[2024.02.25-04.15.57:135][488]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/LearningKit_Games/Blueprints/AICharacter/Pursuer/BP_Pursuer.BP_Pursuer_C
+[2024.02.25-04.15.57:135][488]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/LearningKit_Games/Blueprints/AICharacter/Pursuer/BP_Pursuer.BP_Pursuer_C
+[2024.02.25-04.15.57:141][488]LogActorFactory: Actor Factory spawned Blueprint /Game/LearningKit_Games/Blueprints/AICharacter/Pursuer/BP_Pursuer.BP_Pursuer as actor: BP_Pursuer_C /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.BP_Pursuer_C_1
+[2024.02.25-04.15.57:143][488]LogActorFactory: Actor Factory spawned Blueprint /Game/LearningKit_Games/Blueprints/AICharacter/Pursuer/BP_Pursuer.BP_Pursuer as actor: BP_Pursuer_C /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.BP_Pursuer_C_1
+[2024.02.25-04.16.19:915][991]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/LearningKit_Games/Blueprints/AICharacter/Pursuer/BP_Pursuer.BP_Pursuer_C
+[2024.02.25-04.16.19:915][991]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/LearningKit_Games/Blueprints/AICharacter/Pursuer/BP_Pursuer.BP_Pursuer_C
+[2024.02.25-04.16.19:917][991]LogActorFactory: Actor Factory spawned Blueprint /Game/LearningKit_Games/Blueprints/AICharacter/Pursuer/BP_Pursuer.BP_Pursuer as actor: BP_Pursuer_C /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.BP_Pursuer_C_2
+[2024.02.25-04.16.19:919][991]LogActorFactory: Actor Factory spawned Blueprint /Game/LearningKit_Games/Blueprints/AICharacter/Pursuer/BP_Pursuer.BP_Pursuer as actor: BP_Pursuer_C /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.BP_Pursuer_C_2
+[2024.02.25-04.16.21:413][ 79]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/LearningKit_Games/Blueprints/AICharacter/Pursuer/BP_Pursuer.BP_Pursuer_C
+[2024.02.25-04.16.21:413][ 79]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/LearningKit_Games/Blueprints/AICharacter/Pursuer/BP_Pursuer.BP_Pursuer_C
+[2024.02.25-04.16.21:420][ 79]LogActorFactory: Actor Factory spawned Blueprint /Game/LearningKit_Games/Blueprints/AICharacter/Pursuer/BP_Pursuer.BP_Pursuer as actor: BP_Pursuer_C /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.BP_Pursuer_C_3
+[2024.02.25-04.16.21:422][ 79]LogActorFactory: Actor Factory spawned Blueprint /Game/LearningKit_Games/Blueprints/AICharacter/Pursuer/BP_Pursuer.BP_Pursuer as actor: BP_Pursuer_C /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.BP_Pursuer_C_3
+[2024.02.25-04.16.38:807][330]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/LearningKit_Games/Blueprints/AICharacter/Pursuer/BP_Pursuer.BP_Pursuer_C
+[2024.02.25-04.16.38:807][330]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/LearningKit_Games/Blueprints/AICharacter/Pursuer/BP_Pursuer.BP_Pursuer_C
+[2024.02.25-04.16.38:811][330]LogActorFactory: Actor Factory spawned Blueprint /Game/LearningKit_Games/Blueprints/AICharacter/Pursuer/BP_Pursuer.BP_Pursuer as actor: BP_Pursuer_C /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.BP_Pursuer_C_4
+[2024.02.25-04.16.38:813][330]LogActorFactory: Actor Factory spawned Blueprint /Game/LearningKit_Games/Blueprints/AICharacter/Pursuer/BP_Pursuer.BP_Pursuer as actor: BP_Pursuer_C /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.BP_Pursuer_C_4
+[2024.02.25-04.16.40:058][402]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/LearningKit_Games/Blueprints/AICharacter/Pursuer/BP_Pursuer.BP_Pursuer_C
+[2024.02.25-04.16.40:058][402]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/LearningKit_Games/Blueprints/AICharacter/Pursuer/BP_Pursuer.BP_Pursuer_C
+[2024.02.25-04.16.40:064][402]LogActorFactory: Actor Factory spawned Blueprint /Game/LearningKit_Games/Blueprints/AICharacter/Pursuer/BP_Pursuer.BP_Pursuer as actor: BP_Pursuer_C /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.BP_Pursuer_C_5
+[2024.02.25-04.16.40:066][402]LogActorFactory: Actor Factory spawned Blueprint /Game/LearningKit_Games/Blueprints/AICharacter/Pursuer/BP_Pursuer.BP_Pursuer as actor: BP_Pursuer_C /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.BP_Pursuer_C_5
+[2024.02.25-04.16.44:808][701]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/LearningKit_Games/Blueprints/AICharacter/Pursuer/BP_Pursuer.BP_Pursuer_C
+[2024.02.25-04.16.44:808][701]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/LearningKit_Games/Blueprints/AICharacter/Pursuer/BP_Pursuer.BP_Pursuer_C
+[2024.02.25-04.16.44:811][701]LogActorFactory: Actor Factory spawned Blueprint /Game/LearningKit_Games/Blueprints/AICharacter/Pursuer/BP_Pursuer.BP_Pursuer as actor: BP_Pursuer_C /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.BP_Pursuer_C_6
+[2024.02.25-04.16.44:814][701]LogActorFactory: Actor Factory spawned Blueprint /Game/LearningKit_Games/Blueprints/AICharacter/Pursuer/BP_Pursuer.BP_Pursuer as actor: BP_Pursuer_C /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.BP_Pursuer_C_6
+[2024.02.25-04.16.46:079][766]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/LearningKit_Games/Blueprints/AICharacter/Pursuer/BP_Pursuer.BP_Pursuer_C
+[2024.02.25-04.16.46:079][766]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/LearningKit_Games/Blueprints/AICharacter/Pursuer/BP_Pursuer.BP_Pursuer_C
+[2024.02.25-04.16.46:085][766]LogActorFactory: Actor Factory spawned Blueprint /Game/LearningKit_Games/Blueprints/AICharacter/Pursuer/BP_Pursuer.BP_Pursuer as actor: BP_Pursuer_C /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.BP_Pursuer_C_7
+[2024.02.25-04.16.46:087][766]LogActorFactory: Actor Factory spawned Blueprint /Game/LearningKit_Games/Blueprints/AICharacter/Pursuer/BP_Pursuer.BP_Pursuer as actor: BP_Pursuer_C /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.BP_Pursuer_C_7
+[2024.02.25-04.16.59:334][713]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/LearningKit_Games/Blueprints/AICharacter/Shooter/BP_Shooter.BP_Shooter_C
+[2024.02.25-04.16.59:334][713]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/LearningKit_Games/Blueprints/AICharacter/Shooter/BP_Shooter.BP_Shooter_C
+[2024.02.25-04.16.59:338][713]LogActorFactory: Actor Factory spawned Blueprint /Game/LearningKit_Games/Blueprints/AICharacter/Shooter/BP_Shooter.BP_Shooter as actor: BP_Shooter_C /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.BP_Shooter_C_0
+[2024.02.25-04.16.59:340][713]LogActorFactory: Actor Factory spawned Blueprint /Game/LearningKit_Games/Blueprints/AICharacter/Shooter/BP_Shooter.BP_Shooter as actor: BP_Shooter_C /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.BP_Shooter_C_0
+[2024.02.25-04.17.00:417][779]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/LearningKit_Games/Blueprints/AICharacter/Shooter/BP_Shooter.BP_Shooter_C
+[2024.02.25-04.17.00:417][779]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/LearningKit_Games/Blueprints/AICharacter/Shooter/BP_Shooter.BP_Shooter_C
+[2024.02.25-04.17.00:422][779]LogActorFactory: Actor Factory spawned Blueprint /Game/LearningKit_Games/Blueprints/AICharacter/Shooter/BP_Shooter.BP_Shooter as actor: BP_Shooter_C /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.BP_Shooter_C_1
+[2024.02.25-04.17.00:424][779]LogActorFactory: Actor Factory spawned Blueprint /Game/LearningKit_Games/Blueprints/AICharacter/Shooter/BP_Shooter.BP_Shooter as actor: BP_Shooter_C /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.BP_Shooter_C_1
+[2024.02.25-04.17.05:006][ 53]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/LearningKit_Games/Blueprints/AICharacter/Shooter/BP_Shooter.BP_Shooter_C
+[2024.02.25-04.17.05:006][ 53]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/LearningKit_Games/Blueprints/AICharacter/Shooter/BP_Shooter.BP_Shooter_C
+[2024.02.25-04.17.05:008][ 53]LogActorFactory: Actor Factory spawned Blueprint /Game/LearningKit_Games/Blueprints/AICharacter/Shooter/BP_Shooter.BP_Shooter as actor: BP_Shooter_C /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.BP_Shooter_C_2
+[2024.02.25-04.17.05:011][ 53]LogActorFactory: Actor Factory spawned Blueprint /Game/LearningKit_Games/Blueprints/AICharacter/Shooter/BP_Shooter.BP_Shooter as actor: BP_Shooter_C /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.BP_Shooter_C_2
+[2024.02.25-04.17.06:641][147]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/LearningKit_Games/Blueprints/AICharacter/Shooter/BP_Shooter.BP_Shooter_C
+[2024.02.25-04.17.06:641][147]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/LearningKit_Games/Blueprints/AICharacter/Shooter/BP_Shooter.BP_Shooter_C
+[2024.02.25-04.17.06:647][147]LogActorFactory: Actor Factory spawned Blueprint /Game/LearningKit_Games/Blueprints/AICharacter/Shooter/BP_Shooter.BP_Shooter as actor: BP_Shooter_C /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.BP_Shooter_C_3
+[2024.02.25-04.17.06:649][147]LogActorFactory: Actor Factory spawned Blueprint /Game/LearningKit_Games/Blueprints/AICharacter/Shooter/BP_Shooter.BP_Shooter as actor: BP_Shooter_C /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.BP_Shooter_C_3
+[2024.02.25-04.17.51:485][694]Cmd: EDIT COPY
+[2024.02.25-04.17.52:717][795]Cmd: EDIT PASTE
+[2024.02.25-04.18.17:050][589]Cmd: EDIT COPY
+[2024.02.25-04.18.17:463][616]Cmd: EDIT PASTE
+[2024.02.25-04.19.44:193][618]Cmd: DELETE
+[2024.02.25-04.19.44:193][618]Cmd: ACTOR DELETE
+[2024.02.25-04.19.44:202][618]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.02.25-04.19.44:223][618]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2024.02.25-04.19.44:247][618]LogEditorActor: Deleted 1 Actors (0.054 secs)
+[2024.02.25-04.19.44:750][648]Cmd: DELETE
+[2024.02.25-04.19.44:750][648]Cmd: ACTOR DELETE
+[2024.02.25-04.19.44:758][648]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.02.25-04.19.44:774][648]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2024.02.25-04.19.44:782][648]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2024.02.25-04.20.07:225][407]Cmd: EDIT COPY
+[2024.02.25-04.20.07:853][454]Cmd: EDIT PASTE
+[2024.02.25-04.21.08:924][962]Cmd: EDIT COPY
+[2024.02.25-04.21.09:313][987]Cmd: EDIT PASTE
+[2024.02.25-04.22.25:605][130]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.25-04.22.25:698][130]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2024.02.25-04.22.25:825][130]LogSavePackage: Moving output files for package: /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase
+[2024.02.25-04.22.25:826][130]LogSavePackage: Moving '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Saved/LearningKit_Games_Showcase54E59D334D8E10C15B374F8945C422F1.tmp' to '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Content/LearningKit_Games/Maps/LearningKit_Games_Showcase.umap'
+[2024.02.25-04.22.25:835][130]LogFileHelpers: Saving map 'LearningKit_Games_Showcase' took 0.181
+[2024.02.25-04.22.25:845][130]LogFileHelpers: InternalPromptForCheckoutAndSave took 240 ms (total: 18.2 sec)
+[2024.02.25-04.22.25:849][130]AssetCheck: New page: Asset Save: LearningKit_Games_Showcase
+[2024.02.25-04.22.25:849][130]LogContentValidation: Display: Validating /Script/Engine.World /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase
+[2024.02.25-04.22.26:763][198]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.25-04.22.26:772][198]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.25-04.22.26:772][198]PIE: New page: PIE session: LearningKit_Games_Showcase (Feb 24, 2024, 4:22:26 PM)
+[2024.02.25-04.22.26:772][198]LogPlayLevel: Creating play world package: /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase
+[2024.02.25-04.22.26:814][198]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042461s)
+[2024.02.25-04.22.26:815][198]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase to /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase (0.042504s)
+[2024.02.25-04.22.26:832][198]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2024.02.25-04.22.26:835][198]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.25-04.22.26:835][198]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2024.02.25-04.22.26:836][198]LogAIModule: Creating AISystem for world LearningKit_Games_Showcase
+[2024.02.25-04.22.26:836][198]LogPlayLevel: PIE: World Init took: (0.001269s)
+[2024.02.25-04.22.26:836][198]LogAudio: Display: Creating Audio Device:                 Id: 52, Scope: Unique, Realtime: True
+[2024.02.25-04.22.26:836][198]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.25-04.22.26:836][198]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.25-04.22.26:836][198]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.25-04.22.26:836][198]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.25-04.22.26:836][198]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.25-04.22.26:836][198]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.25-04.22.26:836][198]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.25-04.22.26:836][198]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.25-04.22.26:837][198]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.25-04.22.26:837][198]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.25-04.22.26:837][198]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.25-04.22.26:839][198]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.25-04.22.26:869][198]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.02.25-04.22.26:869][198]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.25-04.22.26:869][198]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.25-04.22.26:869][198]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.25-04.22.26:870][198]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=52
+[2024.02.25-04.22.26:870][198]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=52
+[2024.02.25-04.22.26:871][198]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=52
+[2024.02.25-04.22.26:871][198]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=52
+[2024.02.25-04.22.26:871][198]LogInit: FAudioDevice initialized with ID 52.
+[2024.02.25-04.22.26:871][198]LogAudio: Display: Audio Device (ID: 52) registered with world 'LearningKit_Games_Showcase'.
+[2024.02.25-04.22.26:872][198]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 52
+[2024.02.25-04.22.26:875][198]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2024.02.25-04.22.26:901][198]LogWorld: Bringing World /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase up for play (max tick rate 0) at 2024.02.24-22.22.26
+[2024.02.25-04.22.28:773][198]LogWorld: Bringing up level for play took: 1.898287
+[2024.02.25-04.22.28:776][198]LogOnline: OSS: Created online subsystem instance for: :Context_97
+[2024.02.25-04.22.28:801][198]PIE: Server logged in
+[2024.02.25-04.22.28:802][198]PIE: Play in editor total start time 2.031 seconds.
+[2024.02.25-04.22.55:498][324]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.25-04.22.55:498][324]LogWorld: BeginTearingDown for /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase
+[2024.02.25-04.22.55:499][324]LogWorld: UWorld::CleanupWorld for LearningKit_Games_Showcase, bSessionEnded=true, bCleanupResources=true
+[2024.02.25-04.22.55:503][324]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.25-04.22.55:509][324]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.25-04.22.55:517][324]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.25-04.22.55:535][324]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.25-04.22.55:539][324]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 52
+[2024.02.25-04.22.55:539][324]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=52
+[2024.02.25-04.22.55:541][324]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=52
+[2024.02.25-04.22.55:555][324]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2024.02.25-04.22.55:657][325]LogPlayLevel: Display: Destroying online subsystem :Context_97
+[2024.02.25-04.23.24:675][342]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/LearningKit_Games/Blueprints/Pickups/Health_Pickup_BP.Health_Pickup_BP_C
+[2024.02.25-04.23.24:675][342]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/LearningKit_Games/Blueprints/Pickups/Health_Pickup_BP.Health_Pickup_BP_C
+[2024.02.25-04.23.24:677][342]LogActorFactory: Actor Factory spawned Blueprint /Game/LearningKit_Games/Blueprints/Pickups/Health_Pickup_BP.Health_Pickup_BP as actor: Health_Pickup_BP_C /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.Health_Pickup_BP_C_0
+[2024.02.25-04.23.24:679][342]LogActorFactory: Actor Factory spawned Blueprint /Game/LearningKit_Games/Blueprints/Pickups/Health_Pickup_BP.Health_Pickup_BP as actor: Health_Pickup_BP_C /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.Health_Pickup_BP_C_0
+[2024.02.25-04.23.25:521][396]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/LearningKit_Games/Blueprints/Pickups/Health_Pickup_BP.Health_Pickup_BP_C
+[2024.02.25-04.23.25:521][396]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/LearningKit_Games/Blueprints/Pickups/Health_Pickup_BP.Health_Pickup_BP_C
+[2024.02.25-04.23.25:525][396]LogActorFactory: Actor Factory spawned Blueprint /Game/LearningKit_Games/Blueprints/Pickups/Health_Pickup_BP.Health_Pickup_BP as actor: Health_Pickup_BP_C /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.Health_Pickup_BP_C_1
+[2024.02.25-04.23.25:526][396]LogActorFactory: Actor Factory spawned Blueprint /Game/LearningKit_Games/Blueprints/Pickups/Health_Pickup_BP.Health_Pickup_BP as actor: Health_Pickup_BP_C /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.Health_Pickup_BP_C_1
+[2024.02.25-04.23.28:267][555]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/LearningKit_Games/Blueprints/Pickups/Health_Pickup_BP.Health_Pickup_BP_C
+[2024.02.25-04.23.28:267][555]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/LearningKit_Games/Blueprints/Pickups/Health_Pickup_BP.Health_Pickup_BP_C
+[2024.02.25-04.23.28:268][555]LogActorFactory: Actor Factory spawned Blueprint /Game/LearningKit_Games/Blueprints/Pickups/Health_Pickup_BP.Health_Pickup_BP as actor: Health_Pickup_BP_C /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.Health_Pickup_BP_C_2
+[2024.02.25-04.23.28:270][555]LogActorFactory: Actor Factory spawned Blueprint /Game/LearningKit_Games/Blueprints/Pickups/Health_Pickup_BP.Health_Pickup_BP as actor: Health_Pickup_BP_C /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.Health_Pickup_BP_C_2
+[2024.02.25-04.23.30:201][693]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/LearningKit_Games/Blueprints/Pickups/Health_Pickup_BP.Health_Pickup_BP_C
+[2024.02.25-04.23.30:201][693]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/LearningKit_Games/Blueprints/Pickups/Health_Pickup_BP.Health_Pickup_BP_C
+[2024.02.25-04.23.30:204][693]LogActorFactory: Actor Factory spawned Blueprint /Game/LearningKit_Games/Blueprints/Pickups/Health_Pickup_BP.Health_Pickup_BP as actor: Health_Pickup_BP_C /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.Health_Pickup_BP_C_3
+[2024.02.25-04.23.30:206][693]LogActorFactory: Actor Factory spawned Blueprint /Game/LearningKit_Games/Blueprints/Pickups/Health_Pickup_BP.Health_Pickup_BP as actor: Health_Pickup_BP_C /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.Health_Pickup_BP_C_3
+[2024.02.25-04.23.34:496][993]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/LearningKit_Games/Blueprints/Pickups/Health_Pickup_BP.Health_Pickup_BP_C
+[2024.02.25-04.23.34:497][993]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/LearningKit_Games/Blueprints/Pickups/Health_Pickup_BP.Health_Pickup_BP_C
+[2024.02.25-04.23.34:499][993]LogActorFactory: Actor Factory spawned Blueprint /Game/LearningKit_Games/Blueprints/Pickups/Health_Pickup_BP.Health_Pickup_BP as actor: Health_Pickup_BP_C /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.Health_Pickup_BP_C_4
+[2024.02.25-04.23.34:500][993]LogActorFactory: Actor Factory spawned Blueprint /Game/LearningKit_Games/Blueprints/Pickups/Health_Pickup_BP.Health_Pickup_BP as actor: Health_Pickup_BP_C /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.Health_Pickup_BP_C_4
+[2024.02.25-04.23.38:797][269]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/LearningKit_Games/Blueprints/Pickups/Health_Pickup_BP.Health_Pickup_BP_C
+[2024.02.25-04.23.38:797][269]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/LearningKit_Games/Blueprints/Pickups/Health_Pickup_BP.Health_Pickup_BP_C
+[2024.02.25-04.23.38:801][269]LogActorFactory: Actor Factory spawned Blueprint /Game/LearningKit_Games/Blueprints/Pickups/Health_Pickup_BP.Health_Pickup_BP as actor: Health_Pickup_BP_C /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.Health_Pickup_BP_C_5
+[2024.02.25-04.23.38:803][269]LogActorFactory: Actor Factory spawned Blueprint /Game/LearningKit_Games/Blueprints/Pickups/Health_Pickup_BP.Health_Pickup_BP as actor: Health_Pickup_BP_C /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.Health_Pickup_BP_C_5
+[2024.02.25-04.24.25:876][ 20]LogViewport: Scene viewport resized to 235x193, mode Windowed.
+[2024.02.25-04.24.26:562][ 20]LogViewport: Scene viewport resized to 1041x1294, mode Windowed.
+[2024.02.25-04.25.54:801][869]Cmd: DELETE
+[2024.02.25-04.25.54:801][869]Cmd: ACTOR DELETE
+[2024.02.25-04.25.54:816][869]LogEditorActor: Deleted Actor: Health_Pickup_BP_C
+[2024.02.25-04.25.54:837][869]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2024.02.25-04.25.54:862][869]LogEditorActor: Deleted 1 Actors (0.061 secs)
+[2024.02.25-04.25.55:602][899]Cmd: DELETE
+[2024.02.25-04.25.55:602][899]Cmd: ACTOR DELETE
+[2024.02.25-04.25.55:611][899]LogEditorActor: Deleted Actor: Health_Pickup_BP_C
+[2024.02.25-04.25.55:630][899]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2024.02.25-04.25.55:635][899]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2024.02.25-04.25.56:765][950]Cmd: DELETE
+[2024.02.25-04.25.56:765][950]Cmd: ACTOR DELETE
+[2024.02.25-04.25.56:774][950]LogEditorActor: Deleted Actor: Health_Pickup_BP_C
+[2024.02.25-04.25.56:791][950]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2024.02.25-04.25.56:797][950]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2024.02.25-04.26.19:463][115]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.25-04.26.19:554][115]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2024.02.25-04.26.19:673][115]LogSavePackage: Moving output files for package: /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase
+[2024.02.25-04.26.19:674][115]LogSavePackage: Moving '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Saved/LearningKit_Games_ShowcaseE416D3AD4B31C5890618279EE67A7425.tmp' to '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Content/LearningKit_Games/Maps/LearningKit_Games_Showcase.umap'
+[2024.02.25-04.26.19:682][115]LogFileHelpers: Saving map 'LearningKit_Games_Showcase' took 0.168
+[2024.02.25-04.26.19:690][115]LogFileHelpers: InternalPromptForCheckoutAndSave took 227 ms (total: 18.4 sec)
+[2024.02.25-04.26.19:694][115]AssetCheck: New page: Asset Save: LearningKit_Games_Showcase
+[2024.02.25-04.26.19:694][115]LogContentValidation: Display: Validating /Script/Engine.World /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase
+[2024.02.25-04.28.19:152][216]BlueprintLog: New page: Compile BP_LearningKit_PlayerCharacter
+[2024.02.25-04.28.19:269][216]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2024.02.25-04.28.20:389][251]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.25-04.28.20:585][251]LogSavePackage: Moving output files for package: /Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter
+[2024.02.25-04.28.20:586][251]LogSavePackage: Moving '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Saved/BP_LearningKit_PlayerCharacter2CCC745C43826A9357D3E191B7469256.tmp' to '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Content/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.uasset'
+[2024.02.25-04.28.20:596][251]LogFileHelpers: InternalPromptForCheckoutAndSave took 207 ms (total: 18.6 sec)
+[2024.02.25-04.28.20:599][251]AssetCheck: New page: Asset Save: BP_LearningKit_PlayerCharacter
+[2024.02.25-04.28.20:599][251]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter
+[2024.02.25-04.29.27:619][734]LogDerivedDataCache: C:/Users/cesco/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:08.079 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 4445 files in 6276 folders with total size 272 MiB.
+[2024.02.25-04.29.40:256][895]LogViewport: Scene viewport resized to 2101x1300, mode Windowed.
+[2024.02.25-04.30.25:266][745]LogEditorViewport: Clicking Background
+[2024.02.25-04.31.14:561][ 86]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2024.02.25-04.31.14:561][ 86]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.25-04.31.15:302][116]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.02.25-04.31.15:302][116]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2024.02.25-04.31.15:302][116]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.25-04.31.46:308][619]BlueprintLog: New page: Compile BP_LearningKit_PlayerCharacter
+[2024.02.25-04.31.46:432][619]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2024.02.25-04.31.47:932][657]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.25-04.31.48:119][657]LogSavePackage: Moving output files for package: /Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter
+[2024.02.25-04.31.48:120][657]LogSavePackage: Moving '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Saved/BP_LearningKit_PlayerCharacter028F3D7941B71A2B958A178628AF8738.tmp' to '../../../../../../Users/cesco/OneDrive/Documents/Unreal Projects/UnrealLearningKit 5.3/Content/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.uasset'
+[2024.02.25-04.31.48:130][657]LogFileHelpers: InternalPromptForCheckoutAndSave took 197 ms (total: 18.8 sec)
+[2024.02.25-04.31.48:133][657]AssetCheck: New page: Asset Save: BP_LearningKit_PlayerCharacter
+[2024.02.25-04.31.48:133][657]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter
